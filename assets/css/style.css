@@ -495,7 +495,7 @@ a:hover {
 }
 
 .background-yellow {
-  background-color:  #06a9d6;
+  background-color: var(--sala-tone-yellow, #ffdd0f);
 }
 
 .background-red {
