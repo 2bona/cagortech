@@ -1,594 +1,913 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 
-<head>
-    <!-- Metas -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Iteck Multi-Purpose themeforest" />
-    <meta name="description" content="Iteck - Multi-Purpose HTML5 Template" />
-    <meta name="author" content="" />
-
-    <!-- Title  -->
-    <title>Matoffo | Software Development</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/fav.png" title="Favicon" sizes="16x16" />
-
-    <!-- ====== bootstrap icons cdn ====== -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- bootstrap 5 -->
-    <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
-
-    <!-- ====== font family ====== -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/lib/all.min.css" />
-    <link rel="stylesheet" href="assets/css/lib/animate.css" />
-    <link rel="stylesheet" href="assets/css/lib/jquery.fancybox.css" />
-    <link rel="stylesheet" href="assets/css/lib/lity.css" />
-    <link rel="stylesheet" href="assets/css/lib/swiper.min.css" />
-    
-    <!-- ====== global style ====== -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-
-<body>
-
-    <!-- ====== start loading page ====== -->
-    <!-- <div id="preloader">
-    </div> -->
-    <!-- ---------- loader ---------- -->
-    <div id="preloader">
-        <div id="loading-wrapper" class="show">
-            <div id="loading-content"></div>
-        </div>
-    </div>
-    <!-- ====== end loading page ====== -->
-
-    <!-- ====== start top navbar ====== -->
-    <div class="top-navbar style-4">
-        <div class="container">
-            
-        </div>
-    </div>
-    <!-- ====== end top navbar ====== -->
-
-    <!-- ====== start navbar ====== -->
-    <nav class="navbar navbar-expand-lg navbar-light style-4">
-      <div class="container">
-          <a class="navbar-brand" href="/">
-              <img src="assets/img/logo_lgr.png" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
-                  <li class="nav-item ">
-                      <a class="nav-link " href="/" 
-                          >
-                          Home
-                      </a>
-                      
-                  </li>
-                  <li class="nav-item ">
-                      <a class="nav-link  " href="/about.html" 
-                          >
-                          About
-                          
-                      </a>
-                      
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link active" href="/faqs.html">
-                          Faqs
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/blog.html">
-                          blog
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/contact.html">
-                          contact
-                      </a>
-                  </li>
-              </ul>
-              
-          </div>
-      </div>
-  </nav>
-    <!-- ====== end navbar ====== -->
-
-    <!-- ====== start inner-header style-5 ====== -->
-    <section class="inner-header style-5">
-        <div class="container">
-            <div class="content">
-                <div class="links">
-                    <a href="/"> Home </a>
-                    <a > FAQs </a>
-                </div>
-                <h2> Frequently Asked Questions </h2>
-                <img src="assets/img/header/head7_rock.png" alt="" class="side-img slide_up_down">
-            </div>
-        </div>
-    </section>
-    <!-- ====== end inner-header style-5 ====== -->
 
 
-    <!--Contents-->
-    <main class="faq-page style-5 section-padding">
 
-        <!-- ====== start faq-tabs style-5 ====== -->
-        <section class="faq-tabs style-5">
-    <div class="container">
-        <ul class="nav nav-pills" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-card active" id="faq1-tab" data-bs-toggle="pill" data-bs-target="#faq1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-                    <div class="icon img-contain">
-                        <img src="assets/img/icons/users.png" alt="">
-                    </div>
-                    <div class="info">
-                        <h5> About Our Services </h5>
-                        <p> 08 Answers </p>
-                    </div>
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-card" id="faq2-tab" data-bs-toggle="pill" data-bs-target="#faq2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-                    <div class="icon img-contain">
-                        <img src="assets/img/icons/protect.png" alt="">
-                    </div>
-                    <div class="info">
-                        <h5> Privacy & Security </h5>
-                        <p> 20 Answers </p>
-                    </div>
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-card" id="faq3-tab" data-bs-toggle="pill" data-bs-target="#faq1" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                    <div class="icon img-contain">
-                        <img src="assets/img/icons/dollar.png" alt="">
-                    </div>
-                    <div class="info">
-                        <h5> Refund & Payment Options </h5>
-                        <p> 18 Answers </p>
-                    </div>
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-card" id="faq4-tab" data-bs-toggle="pill" data-bs-target="#faq2" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                    <div class="icon img-contain">
-                        <img src="assets/img/icons/24hour.png" alt="">
-                    </div>
-                    <div class="info">
-                        <h5> Customer Support & More </h5>
-                        <p> 33 Answers </p>
-                    </div>
-                </button>
-            </li>
-        </ul>
-    </div>
-</section>
+	<head>
 
-        <!-- ====== end faq-tabs style-5 ====== -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="DSAThemes">	
+		<meta name="description" content="Vatetech - Cloud Infrastructure Design and Deployment Services">
+		<meta name="keywords" content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+				
+  		<!-- SITE TITLE -->
+		<title>Vatetech - Cloud Infrastructure Design and Deployment Services</title>
+							
+		<!-- FAVICON AND TOUCH ICONS -->
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+		<link rel="icon" href="images/favicon.png" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
 
+		<!-- GOOGLE FONTS -->
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+		
+		<!-- BOOTSTRAP CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+				
+		<!-- FONT ICONS -->
+		<link href="css/flaticon.css" rel="stylesheet">
 
-        <!-- ====== end faq-body style-5 ====== -->
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="faq1" role="tabpanel">
-                <div class="faq-body">
-                    <div class="container">
-                        <div class="row gx-5">
-                            <div class="col-lg-4">
-                                <div class="faq-category">
-                                    <h5> Question Category: </h5>
-                                    <ul>
-                                        <li>
-                                            <a href="#accordion1" class="active"> Software Installation </a>
-                                            <span> 06 </span>
-                                        </li>
-                                        <li>
-                                            <a href="#accordion2"> Introduction to Software Development </a>
-                                            <span> 04 </span>
-                                        </li>
-                                        <li>
-                                            <a href="#accordion3"> Software Development </a>
-                                            <span> 03 </span>
-                                        </li>
-                                        <li>
-                                            <a href="#accordion4"> Software Development Framework</a>
-                                            <span> 03 </span>
-                                        </li>
-                                        <li>
-                                            <a href="#accordion5"> Innovative Footer Solutions </a>
-                                            <span> 04 </span>
-                                        </li>
-                                        <li>
-                                            <a href="#accordion6"> Customer Support </a>
-                                            <span> 05 </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="faq-questions">
-                                  <div class="accordion pt-lg-0" id="accordion1">
-                                    <h5 class="sec-title mt-0"> <span> 01. </span> Software Installation </h5>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="hd1">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bd1" aria-expanded="true" aria-controls="collapseOne">
-                                                Global Software Optimization
-                                            </button>
-                                        </h2>
-                                        <div id="bd1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion1">
-                                            <div class="accordion-body">
-                                                <div class="text">
-                                                    Matoffo provides cutting-edge software solutions that enhance the performance of your applications. Our software installation process is seamless and efficient.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="hd2">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd2" aria-expanded="false" aria-controls="collapseTwo">
-                                                Complete Integration with Social Media
-                                            </button>
-                                        </h2>
-                                        <div id="bd2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion1">
-                                            <div class="accordion-body">
-                                                <div class="text">
-                                                    Matoffo ensures complete integration with social media platforms, allowing you to reach a wider audience and improve your online presence.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="hd3">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd3" aria-expanded="false" aria-controls="collapseThree">
-                                                End-to-End Message Encryption
-                                            </button>
-                                        </h2>
-                                        <div id="bd3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion1">
-                                            <div class="accordion-body">
-                                                <div class="text">
-                                                    Matoffo employs state-of-the-art encryption techniques to ensure the security and privacy of your messages, offering end-to-end protection.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
+		<!-- PLUGINS STYLESHEET -->
+		<link href="css/menu.css" rel="stylesheet">	
+		<link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
+		<link href="css/magnific-popup.css" rel="stylesheet">	
+		<link href="css/owl.carousel.min.css" rel="stylesheet">
+		<link href="css/owl.theme.default.min.css" rel="stylesheet">
+		<link href="css/lunar.css" rel="stylesheet">
 
-                                      <!-- ------- -->
-                                      <div class="accordion" id="accordion2">
-                                        <h5 class="sec-title"> <span> 02. </span> Introduction to Software Development </h5>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd4">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd4" aria-expanded="true" aria-controls="collapseOne">
-                                                    What Drives Our Software Development?
-                                                </button>
-                                            </h2>
-                                            <div id="bd4" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion2">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        At Matoffo, our software development is powered by Sass (short for syntactically awesome style sheets), a preprocessor scripting language. Sass is interpreted and compiled into Cascading Style Sheets, making it the foundation of our software development process.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd5">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd5" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Proactive Software Solutions
-                                                </button>
-                                            </h2>
-                                            <div id="bd5" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion2">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        We take a proactive approach to provide software solutions that matter. matoffo.online focuses on delivering software with qualities, feelings, and attributes that our clients desire.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd6">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd6" aria-expanded="false" aria-controls="collapseThree">
-                                                    Defining the Future of Software Development
-                                                </button>
-                                            </h2>
-                                            <div id="bd6" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion2">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        At Matoffo, we aim to define the future of software development. Our focus is on innovation and pushing the boundaries of what software can achieve.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+		<!-- ON SCROLL ANIMATION -->
+		<link href="css/animate.css" rel="stylesheet">
 
-                                      <!-- ------- -->
-                                      <div class="accordion" id="accordion3">
-                                        <h5 class="sec-title"> <span> 03. </span> Software Development </h5>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd7">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd7" aria-expanded="true" aria-controls="collapseOne">
-                                                    Enhancing Priorities Through Technology
-                                                </button>
-                                            </h2>
-                                            <div id="bd7" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion3">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        At matoffo.online, we leverage Sass (short for syntactically awesome style sheets) as a preprocessor scripting language that transforms our priorities into reality. Sass is at the core of our software development process, allowing us to materialize your most important goals.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd8">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd8" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Fostering Effective Communication
-                                                </button>
-                                            </h2>
-                                            <div id="bd8" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion3">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        Matoffo recognizes the importance of internal communication. We address poor or missing communication through our software solutions, ensuring that your team stays connected and collaborates seamlessly.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class= "accordion-item">
-                                            <h2 class="accordion-header" id="hd9">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd9" aria-expanded="false" aria-controls="collapseThree">
-                                                    Features and Marketing Synergy
-                                                </button>
-                                            </h2>
-                                            <div id="bd9" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion3">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        Matoffo combines cutting-edge features with effective marketing strategies. We address your needs with a holistic approach, ensuring that your software solutions are both feature-rich and well-promoted in the market.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+		<!-- TEMPLATE CSS -->
+		<link href="css/blue-theme.css" rel="stylesheet">
 
-                                      <!-- ------- -->
-                                      <div class="accordion" id="accordion4">
-                                        <h5 class="sec-title"> <span> 04. </span> Software Development Framework </h5>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd7">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd7" aria-expanded="true" aria-controls="collapseOne">
-                                                    Impacting Key Metrics Together
-                                                </button>
-                                            </h2>
-                                            <div id="bd7" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion4">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        At matoffo.online, we harness the power of Sass (short for syntactically awesome style sheets) as a preprocessor scripting language that transforms our objectives into tangible results. Our approach to software development is rooted in the versatility of Sass, allowing us to make an impact on crucial metrics.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd8">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd8" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Fostering Listening and Communication
-                                                </button>
-                                            </h2>
-                                            <div id="bd8" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion4">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        Matoffo places a strong emphasis on listening and effective communication. We ensure that we don't miss valuable insights by actively engaging with our clients. Together, we build software solutions that align with your needs.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd9">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd9" aria-expanded="false" aria-controls="collapseThree">
-                                                    Achieving Goals Collaboratively
-                                                </button>
-                                            </h2>
-                                            <div id="bd9" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion4">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        Matoffo's collaborative approach ensures that we accomplish goals together. We leverage the power of Sass and our expertise in software development to create solutions that match your unique requirements and aspirations.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+		<!-- Style Switcher CSS -->	
+		<link href="css/crocus-theme.css" rel="alternate stylesheet" title="crocus-theme">	
+		<link href="css/green-theme.css" rel="alternate stylesheet" title="green-theme">
+		<link href="css/magenta-theme.css" rel="alternate stylesheet" title="magenta-theme">
+		<link href="css/pink-theme.css" rel="alternate stylesheet" title="pink-theme">	
+		<link href="css/purple-theme.css" rel="alternate stylesheet" title="purple-theme">
+		<link href="css/skyblue-theme.css" rel="alternate stylesheet" title="skyblue-theme">	
+		<link href="css/red-theme.css" rel="alternate stylesheet" title="red-theme">	
+		<link href="css/violet-theme.css" rel="alternate stylesheet" title="violet-theme">		
+		
+		<!-- RESPONSIVE CSS -->
+		<link href="css/responsive.css" rel="stylesheet">
 
-                                      <!-- ------- -->
-                                      <div class="accordion" id="accordion5">
-                                        <h5 class="sec-title"> <span> 05. </span> Innovative Footer Solutions </h5>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd10">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd10" aria-expanded="true" aria-controls="collapseOne">
-                                                    Safeguarding Your Source Code
-                                                </button>
-                                            </h2>
-                                            <div id="bd10" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion5">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        At matoffo.online, we take the security of your source code seriously. We implement advanced measures to ensure that even if it were stolen, it wouldn't matter. Your code is in safe hands.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd11">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd11" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Differentiating Ourselves
-                                                </button>
-                                            </h2>
-                                            <div id="bd11" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion5">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        matoffo.online strives to do things differently. We innovate and create solutions that stand out, ensuring that it wouldn't matter what others are doing. We focus on delivering excellence.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class= "accordion-header" id="hd12">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd12" aria-expanded="false" aria-controls="collapseThree">
-                                                    Streamlining Communication
-                                                </button>
-                                            </h2>
-                                            <div id="bd12" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion5">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        matoffo.online institutionalizes effective communication. We ensure that the exchange of ideas and information is seamless, making it a core part of our approach. Let's streamline your communication.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-
-                                      <!-- ------- -->
-                                      <div class="accordion" id="accordion6">
-                                        <h5 class="sec-title"> <span> 06. </span> Customer Support </h5>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd13">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd13" aria-expanded="true" aria-controls="collapseOne">
-                                                    Discover More About Us
-                                                </button>
-                                            </h2>
-                                            <div id="bd13" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion6">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        At matoffo.online, there's much more to us than meets the eye. Learn interesting facts and insights about our team and culture that not many people are aware of.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd14">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd14" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Our Approach to Challenges
-                                                </button>
-                                            </h2>
-                                            <div id="bd14" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion6">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        matoffo.online believes in addressing challenges proactively. Explore our strategies and solutions, and find out what we do to overcome obstacles.
-                                                    </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="hd15">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd15" aria-expanded="false" aria-controls="collapseThree">
-                                                    Proactive Measures for Your Success
-                                                </button>
-                                            </h2>
-                                            <div id="bd15" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion6">
-                                                <div class="accordion-body">
-                                                    <div class="text">
-                                                        matoffo.online is committed to your success. Learn about the steps we take to ensure your projects run smoothly and how we proactively prevent potential challenges.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+	</head>
 
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        <!-- ====== end faq-body style-5 ====== -->
-        
-    </main>
-    <!--End-Contents-->
 
-    <!-- ====== start footer ====== -->
-    <footer class="style-4 mt-0 pt-100">
-      <div class="container">
-          <div class="section-head text-center style-4">
-              <h2 class="mb-10"> Ready To <span> Explore </span> </h2>
-              
-          </div>
-          <div class="foot mt-80">
-              <div class="row align-items-center">
-                  <div class="col-lg-2">
-                      <div class="logo">
-                          <img src="assets/img/logo_lgr.png" alt="">
-                      </div>
-                  </div>
-                  <div class="col-lg-8">
-                      <ul class="links">
-                          <li>
-                              <a href="/" class="active">Home</a>
-                          </li>
-                          <li>
-                              <a href="/about.html">About</a>
-                          </li>
-                          <li>
-                              <a href="/faqs.html">FAQs</a>
-                          </li>
-                          
-                          
-                          
-                          <li>
-                              <a href="page-blog-5.html">Blog</a>
-                          </li>
-                          <li>
-                              <a href="page-contact-5.html">Contact</a>
-                          </li>
-                      </ul>
-                  </div>
-                  
-              </div>
-          </div>
-          <div class="copywrite text-center">
-              <small class="small">
-                  © 2023 Copyrights by <a href="/" class="fw-bold text-decoration-underline">matoffo.online</a> All Rights Reserved. 
-              </small>
-          </div>
-      </div>
-      <!-- <img src="assets/img/footer/footer_4_wave.png" alt="" class="wave"> -->
-  </footer>
-    <!-- ====== end footer ====== -->
 
-    <!-- ====== start to top button ====== -->
-    <a href="#" class="to_top bg-gray rounded-circle icon-40 d-inline-flex align-items-center justify-content-center">
-        <i class="bi bi-chevron-up fs-6 text-dark"></i>
-    </a>
-    <!-- ====== end to top button ====== -->
+	<body> 
 
-    <!-- ====== request ====== -->
-    <script src="assets/js/lib/jquery-3.0.0.min.js"></script>
-    <script src="assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
-    <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/lib/wow.min.js"></script>
-    <script src="assets/js/lib/jquery.fancybox.js"></script>
-    <script src="assets/js/lib/lity.js"></script>
-    <script src="assets/js/lib/swiper.min.js"></script>
-    <script src="assets/js/lib/jquery.waypoints.min.js"></script>
-    <script src="assets/js/lib/jquery.counterup.js"></script>
-    <!-- <script src="assets/js/lib/pace.js"></script> -->
-    <script src="assets/js/lib/scrollIt.min.js"></script>
-    <script src="assets/js/main.js"></script>
 
-</body>
+
+
+		<!-- PRELOADER SPINNER
+		============================================= -->	
+		<div id="loading" class="loading--theme">
+			<div id="loading-center"><span class="loader"></span></div>
+		</div>
+
+
+
+
+	
+
+
+
+
+
+		<!-- PAGE CONTENT
+		============================================= -->	
+		<div id="page" class="page font--jakarta">
+
+
+
+
+			<!-- HEADER
+			============================================= -->
+			<header id="header" class="tra-menu navbar-dark inner-page-header white-scroll">
+				<div class="header-wrapper">
+
+
+					<!-- MOBILE HEADER -->
+				    <div class="wsmobileheader clearfix">	  	
+				    	<span class="smllogo"><img src="images/logo-blue.png" alt="mobile-logo"></span>
+				    	<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>	
+				 	</div>
+
+
+				 	<!-- NAVIGATION MENU -->
+					 <div class="wsmainfull menu clearfix align-items-center">
+	    				<div class="wsmainwp clearfix">
+
+
+	    					<!-- HEADER BLACK LOGO -->
+	    					<div class="desktoplogo">
+	    						<a href="/" class="logo-black"><img src="images/logo-pink.png" alt="logo"></a>
+	    					</div>
+
+	    					<!-- HEADER WHITE LOGO -->
+	    					<div class="desktoplogo">
+	    						<a href="/" class="logo-white"><img src="images/logo-pink.png" alt="logo"></a>
+	    					</div>
+
+
+	    					<!-- MAIN MENU -->
+	      					<nav class="wsmenu clearfix">
+	        					<ul class="wsmenu-list nav-theme">
+
+
+	        						<!-- DROPDOWN SUB MENU -->
+						          	<li aria-haspopup="true"><a href="/about.html" class="h-link">About </a>
+	            						
+								    </li>
+
+
+								    <!-- SIMPLE NAVIGATION LINK -->
+							    	<li class="nl-simple" aria-haspopup="true"><a href="/faqs.html" class="h-link">FAQs</a></li>
+							    	
+
+							    	<!-- MEGAMENU -->
+						          	<li aria-haspopup="true" class="mg_link"><a href="/blog.html" class="h-link">Blog</a>
+	            						
+								    </li>	<!-- END MEGAMENU -->
+
+
+								    <!-- SIMPLE NAVIGATION LINK -->
+							    	<li class="nl-simple" aria-haspopup="true"><a href="/contacts.html" class="h-link">Contact</a></li>
+
+
+						          	
+
+
+								    
+
+
+	        					</ul>
+	        				</nav>	<!-- END MAIN MENU -->
+
+
+	    				</div>
+	    			</div>	<!-- END NAVIGATION MENU -->
+
+
+				</div>     <!-- End header-wrapper -->
+			</header>	<!-- END HEADER -->
+
+
+
+
+			<!-- FAQs-2
+			============================================= -->
+			<section id="faqs-2" class="gr--whitesmoke pb-30 inner-page-hero faqs-section division">				
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-11 col-xl-10">
+
+
+							<!-- INNER PAGE TITLE -->
+							<div class="inner-page-title">
+								<h2 class="s-52 w-700">Cloud Solutions Explained</h2>
+								<p class="p-lg">Answers to Frequently Asked Questions about Our Cloud Services</p>
+							</div>
+							
+
+
+							<!-- QUESTIONS ACCORDION -->
+					 		<div class="accordion-wrapper">
+								<ul class="accordion">
+
+
+									<!-- QUESTIONS CATEGORY #1 -->
+									<li class="accordion-item is-active">
+
+										
+										<!-- CATEGORY HEADER -->
+										<div class="accordion-thumb">
+											<h4 class="s-28 w-700">Getting Started</h4>
+										</div>
+
+
+										<!-- CATEGORY ANSWERS -->
+										<div class="accordion-panel">
+
+
+											<!-- QUESTION #1 -->
+											<div class="accordion-panel-item mb-35">
+	
+												<!-- Question -->	
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>1.</span> What are Cloud Solutions and how do they work?</h5>
+												</div>
+											
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+											
+													<!-- Text -->
+													<p>Cloud infrastructure design and deployment services involve designing and deploying cloud-based solutions. 
+													   This includes configuring cloud resources, managing infrastructure, and ensuring optimal performance and scalability for 
+													   your business needs. Our team of experts uses cloud technologies to provide efficient and flexible solutions for your 
+													   organization, helping you achieve your goals and streamline operations.
+													</p>
+											
+												</div>
+											
+											</div>
+												<!-- END QUESTION #1 -->
+
+
+											<!-- QUESTION #2 -->
+											<div class="accordion-panel-item mb-35">
+	
+												<!-- Question -->	
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>2.</span> What's included in the cloud solutions package?</h5>
+												</div>
+											
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+											
+													<!-- Text -->	
+													<p>Our cloud infrastructure design and deployment services package includes a range of essential features:
+													   - Configuration of cloud resources to meet your specific needs
+													   - Efficient management of cloud infrastructure
+													   - Ensuring optimal performance and scalability
+													   - Streamlined operations for your business
+													</p>
+													
+													<!-- Text -->	
+													<p>With our services, you'll have access to a team of experts who will help you make the most of cloud technologies, ensuring your business runs smoothly and efficiently.
+													</p>
+											
+												</div>
+											
+											</div>
+											<!-- END QUESTION #2 -->
+
+
+											<!-- QUESTION #3 -->
+											<div class="accordion-panel-item mb-35">
+	
+												<!-- Question -->	
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>3.</span> Which programming languages does our cloud infrastructure support?</h5>
+												</div>
+											
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+											
+													<!-- Text -->
+													<ul class="simple-list">
+											
+														<li class="list-item">
+															<p>Our cloud infrastructure supports a variety of programming languages to meet your specific needs:
+															   - Curabitur ac dapibus libero
+															   - Phasellus blandit tristique justo
+															   - Sagittis congue augue egestas volutpat
+															   - Blandit tristique justo aliquam
+															   - Aliquam quisque aliquam vitae
+															</p>
+														</li>
+											
+														<li class="list-item">
+															<p>We provide flexibility to work with languages such as Python, JavaScript, Java, Ruby, and many more. With our services, you can choose the language that best suits your project requirements.
+															</p>
+														</li>
+											
+													</ul>
+											
+												</div>
+											
+											</div>
+												<!-- END QUESTION #3 -->
+
+
+											<!-- QUESTION #4 -->
+											<div class="accordion-panel-item">
+	
+												<!-- Question -->	
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>4.</span> Automated Testing and Deployment with APIs</h5>
+												</div>
+											
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+											
+													<!-- Text -->
+													<p>At vatetech.site, we provide automated testing and deployment solutions that make use of APIs. Our approach is designed to streamline your development and deployment processes, ensuring efficiency and reliability. Here's how our services work:</p>
+											
+													<p>We leverage the power of APIs to automate various stages of your infrastructure management. This includes seamless integration with cloud services, continuous integration and delivery, monitoring, and more. With our solutions, you can optimize your workflow, reduce manual tasks, and improve the overall performance of your cloud infrastructure.</p>
+											
+													<p>Our team of experts is here to guide you through the process and help you make the most of automated testing and deployment with APIs. Whether you're developing web applications, microservices, or other cloud-based solutions, our services are tailored to meet your needs.</p>
+												</div>
+											</div>
+												<!-- END QUESTION #4 -->
+
+
+										</div>	<!-- END CATEGORY ANSWERS -->
+
+
+									</li>	<!-- END QUESTIONS CATEGORY #1 -->
+
+
+									<!-- QUESTIONS CATEGORY #2 -->
+									<li class="accordion-item">
+										<!-- CATEGORY HEADER -->
+										<div class="accordion-thumb">
+											<h4 class="s-28 w-700">Manage Your Cloud Infrastructure</h4>
+										</div>
+									
+										<!-- CATEGORY ANSWERS -->
+										<div class="accordion-panel">
+											<!-- QUESTION #1 -->
+											<div class="accordion-panel-item mb-35">
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>1.</span> Get Started with Cloud Infrastructure</h5>
+												</div>
+									
+												<!-- Answer -->
+												<div class="faqs-2-answer color--grey">
+													<!-- Text -->
+													<ol class="digit-list">
+														<li class="list-item">
+															<p>Start your cloud infrastructure journey by creating an account.</p>
+														</li>
+														<li class="list-item">
+															<p>Learn how to set up your cloud environment with easy steps.</p>
+														</li>
+														<li class="list-item">
+															<p>Get ready to use the full potential of cloud computing.</p>
+														</li>
+														<li class="list-item">
+															<p>Discover how to manage your cloud resources efficiently.</p>
+														</li>
+													</ol>
+												</div>
+											</div>  <!-- END QUESTION #1 -->
+									
+											<!-- QUESTION #2 -->
+											<div class="accordion-panel-item mb-35">
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>2.</span> Manage Cloud Infrastructure Settings</h5>
+												</div>
+									
+												<!-- Answer -->
+												<div class="faqs-2-answer color--grey">
+													<!-- Text -->
+													<p>Effortlessly configure and control your cloud infrastructure settings.</p>
+												</div>
+											</div>  <!-- END QUESTION #2 -->
+									
+											<!-- QUESTION #3 -->
+											<div class="accordion-panel-item mb-35">
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>3.</span> Configure Language and Location Settings</h5>
+												</div>
+									
+												<!-- Answer -->
+												<div class= "faqs-2-answer color--grey">
+													<!-- Text -->
+													<p>Customize the language and location settings for your cloud infrastructure.</p>
+												</div>
+											</div>  <!-- END QUESTION #3 -->
+									
+											<!-- QUESTION #4 -->
+											<div class="accordion-panel-item mb-35">
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>4.</span> Troubleshoot Cloud Infrastructure Issues</h5>
+												</div>
+									
+												<!-- Answer -->
+												<div class="faqs-2-answer color--grey">
+													<!-- Text -->
+													<p>If you encounter issues, we provide you with effective troubleshooting solutions.</p>
+													<!-- Text -->
+													<p>Resolve cloud infrastructure problems and enjoy seamless performance.</p>
+													<!-- Text -->
+													<p>Our experts are here to assist you with any cloud-related concerns.</p>
+												</div>
+											</div>  <!-- END QUESTION #4 -->
+									
+											<!-- QUESTION #5 -->
+											<div class="accordion-panel-item">
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>5.</span> Ensure Accessibility of Your Cloud Infrastructure</h5>
+												</div>
+									
+												<!-- Answer -->
+												<div class="faqs-2-answer color--grey">
+													<!-- Text -->
+													<p>Make sure your cloud infrastructure is accessible and user-friendly.</p>
+													<!-- Text -->
+													<p>Enhance accessibility settings for a better cloud computing experience.</p>
+												</div>
+											</div>  <!-- END QUESTION #5 -->
+										</div>  <!-- END CATEGORY ANSWERS -->
+									</li>
+										<!-- END QUESTIONS CATEGORY #2 -->
+
+
+									<!-- QUESTIONS CATEGORY #3 -->
+									<li class="accordion-item">
+
+										
+										<!-- CATEGORY HEADER -->
+										
+
+
+									</li>	<!-- END QUESTIONS CATEGORY #3 -->
+
+
+									<!-- QUESTIONS CATEGORY #4 -->
+									<li class="accordion-item">
+
+										<!-- CATEGORY HEADER -->
+										<div class="accordion-thumb">
+											<h4 class="s-28 w-700">Cloud Infrastructure Policies</h4>
+										</div>
+									
+										<!-- CATEGORY ANSWERS -->
+										<div class="accordion-panel">
+									
+											<!-- QUESTION #1 -->
+											<div class="accordion-panel-item mb-35">
+												
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>1.</span> Copyright and Data Rights</h5>
+												</div>
+									
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+									
+													<!-- Text -->
+													<p>We prioritize the management of copyrights and data rights in our cloud infrastructure.</p>
+									
+												</div>
+									
+											</div>	<!-- END QUESTION #1 -->
+									
+											<!-- QUESTION #2 -->
+											<div class="accordion-panel-item mb-35">
+												
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>2.</span> Privacy and Security Settings</h5>
+												</div>
+									
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+									
+													<!-- Text -->	
+													<p>Configure your privacy and security settings with confidence.</p>
+									
+													<!-- Text -->
+													<ol class="digit-list">
+									
+														<li class="list-item">
+															<p>Manage access control with ease.</p>
+														</li>
+									
+														<li class="list-item">
+															<p>Enhance your security settings for a seamless experience.</p>
+														</li>
+									
+														<li class="list-item">
+															<p>Ensure data privacy with our advanced security options.</p>
+														</li>
+									
+													</ol>
+									
+												</div>
+									
+											</div>	<!-- END QUESTION #2 -->
+									
+											<!-- QUESTION #3 -->
+											<div class="accordion-panel-item mb-35">
+												
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>3.</span> Subscription Privacy Configuration</h5>
+												</div>
+									
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+									
+													<!-- Text -->	
+													<p>Customize your subscription privacy settings to meet your requirements.</p>
+									
+													<!-- Text -->
+													<ul class="simple-list">
+									
+														<li class="list-item">
+															<p>Control access to your resources with our flexible settings.</p>
+														</li>
+									
+														<li class="list-item">
+															<p>Protect sensitive data with our advanced privacy tools.</p>
+														</li>
+									
+													</ul>
+									
+												</div>
+									
+											</div>	<!-- END QUESTION #3 -->
+									
+											<!-- QUESTION #4 -->
+											<div class="accordion-panel-item">
+												
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>4.</span> Identity Protection and Security</h5>
+												</div>
+									
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+									
+													<!-- Text -->
+													<p>Your identity and data security are our top priorities.</p>
+									
+													<!-- Text -->	
+													<p>We implement the highest security measures to protect your information.</p>
+									
+												</div>
+									
+											</div>	<!-- END QUESTION #4 -->
+									
+										</div>	<!-- END CATEGORY ANSWERS -->
+									
+									</li>
+										<!-- END QUESTIONS CATEGORY #4 -->
+
+
+									<!-- QUESTIONS CATEGORY #5 -->
+									<li class="accordion-item acc-last-item">
+
+										<!-- CATEGORY HEADER -->
+										<div class="accordion-thumb">
+											<h4 class="s-28 w-700">Common Queries</h4>
+										</div>
+									
+										<!-- CATEGORY ANSWERS -->
+										<div class="accordion-panel">
+									
+											<!-- QUESTION #1 -->
+											<div class="accordion-panel-item mb-35">
+												
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>1.</span> Retrieving Error Logs</h5>
+												</div>
+									
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+													
+													<!-- Text -->	
+													  <p>If you need to retrieve error logs, we have you covered with a simple process.</p>
+									
+													<!-- Text -->	
+													  <p>If you encounter any issues, you can access the error logs to diagnose and resolve them.</p>
+									
+												</div>
+									
+											</div>	<!-- END QUESTION #1 -->
+									
+											<!-- QUESTION #2 -->
+											<div class= "accordion-panel-item mb-35">
+												
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>2.</span> Forgot Your Folder Password?</h5>
+												</div>
+									
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+													
+													<!-- Text -->	
+													<p>If you've forgotten your folder password, don't worry; we have solutions for you.</p>
+									
+													<!-- Text -->
+													<ol class="digit-list">
+									
+														<li class="list-item">
+															<p>Learn how to reset or recover your folder password.</p>
+														</li>
+									
+														<li class="list-item">
+															<p>We provide step-by-step instructions to regain access to your folders.</p>
+														</li>
+									
+														<li class="list-item">
+															<p>It's easy to retrieve your folder password with our guidance.</p>
+														</li>
+									
+													</ol>
+									
+												</div>
+									
+											</div>	<!-- END QUESTION #2 -->
+									
+											<!-- QUESTION #3 -->
+											<div class="accordion-panel-item mb-35">
+												
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>3.</span> Folder Password Protection Limits</h5>
+												</div>
+									
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+									
+													<!-- Text -->
+													<p>It's important to understand the limitations of folder password protection.</p>
+									
+												</div>
+									
+											</div>	<!-- END QUESTION #3 -->
+									
+											<!-- QUESTION #4 -->
+											<div class="accordion-panel-item mb-35">
+												
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>4.</span> Importing Existing Libraries</h5>
+												</div>
+									
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+													
+													<!-- Text -->	
+													<p>If you need to import existing libraries, our platform simplifies the process.</p>
+									
+													<!-- Text -->	
+													  <p>We offer seamless options to import your existing libraries into our system.</p>
+									
+												</div>
+									
+											</div>	<!-- END QUESTION #4 -->
+									
+											<!-- QUESTION #5 -->
+											<div class="accordion-panel-item">
+												
+												<!-- Question -->
+												<div class="faqs-2-question">
+													<h5 class="s-22 w-700"><span>5.</span> Lost Your License?</h5>
+												</div>
+									
+												<!-- Answer -->	
+												<div class="faqs-2-answer color--grey">
+													
+													<!-- Text -->
+													  <p>If you've lost your license, we're here to help you recover it.</p> 
+									
+													<!-- Text -->	
+													  <p>Our support team can assist you in retrieving your license with ease.</p>
+									
+												</div>
+									
+											</div>	<!-- END QUESTION #5 -->
+									
+										</div>	<!-- END CATEGORY ANSWERS -->
+									
+									</li>
+										<!-- END QUESTIONS CATEGORY #5 -->
+
+
+								</ul>
+							</div>	<!-- END QUESTIONS ACCORDION -->
+
+
+							<!-- MORE QUESTIONS LINK -->	
+							<div class="more-questions">
+								<div class="more-questions-txt bg--white-400 r-100">
+									<p class="p-lg">Have any questions? <a href="contacts.html" class="color--theme">Get in Touch</a></p>
+								</div>
+							</div>
+
+
+						</div>	
+					</div>    <!-- End row -->	
+				</div>	   <!-- End container -->	
+			</section>	<!-- END FAQs-2 -->	
+
+
+
+			
+			<!-- MODAL WINDOW (NEWSLETTER FORM)
+			============================================= -->
+			<!-- END MODAL WINDOW (NEWSLETTER FORM) -->
+
+
+
+
+			<!-- FOOTER-3
+			============================================= -->
+			<footer id="footer-3" class="pt-100 footer ft-3-ntr">
+				<div class="container">
+			
+					<!-- FOOTER CONTENT -->
+					<div class="row">
+			
+						<!-- FOOTER LOGO -->
+						<div class="col-xl-3">
+							<div class="footer-info">
+								<img class="footer-logo" src="images/logo-pink.png" alt="footer-logo">
+								<img class="footer-logo-dark" src="images/logo-pink-white.png" alt="footer-logo">
+							</div>
+						</div>
+			
+						<!-- FOOTER LINKS -->
+						<div class="col-sm-4 col-lg-3 col-xl-2">
+							<div class="footer-links fl-1">
+			
+								<!-- Title -->
+								<h6 class="s-17 w-700">Company</h6>
+			
+								<!-- Links -->
+								<ul class="foo-links clearfix">
+									<li><p><a href="about.html">About Vatetech</a></p></li>
+									<li><p><a href="blog.html">Blog</a></p></li>
+									<li><p><a href="/contacts.html">Contact</a></p></li>
+								</ul>
+			
+							</div>
+						</div> <!-- END FOOTER LINKS -->
+			
+						<!-- FOOTER LINKS -->
+						
+			
+						<!-- FOOTER LINKS -->
+						<div class="col-sm-4 col-lg-3 col-xl-2">
+							<div class= "footer-links fl-3">
+			
+								<!-- Title -->
+								<h6 class="s-17 w-700">Legal</h6>
+			
+								<!-- Links -->
+								<ul class="foo-links clearfix">
+									<li><p><a href="/faqs.html">FAQs</a></p></li>
+								</ul>
+			
+							</div>
+						</div> <!-- END FOOTER LINKS -->
+			
+						<!-- FOOTER NEWSLETTER FORM -->
+						<div class="col-sm-10 col-md-8 col-lg-4 col-xl-3">
+							<div class="footer-form">
+			
+								<!-- Title -->
+								<h6 class="s-17 w-700">Stay Informed</h6>
+			
+								<!-- Newsletter Form Input -->
+								<form class="newsletter-form">
+									<div class="input-group r-06">
+										<input type="email" class="form-control" placeholder="Email Address" required id="s-email">
+										<span class="input-group-btn ico-15">
+											<button type="submit" class="btn color--theme">
+												<span class="flaticon-right-arrow-1"></span>
+											</button>
+										</span>
+									</div>
+			
+									<!-- Newsletter Form Notification -->
+									<label for="s-email" class="form-notification"></label>
+			
+								</form>
+			
+							</div>
+						</div> <!-- END FOOTER NEWSLETTER FORM -->
+					</div> <!-- END FOOTER CONTENT -->
+			
+					<hr> <!-- FOOTER DIVIDER LINE -->
+			
+					<!-- BOTTOM FOOTER -->
+					<div class="bottom-footer">
+						<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
+			
+							<!-- FOOTER COPYRIGHT -->
+							<div class="col">
+								<div class="footer-copyright">
+									<p class="p-sm">&copy; 2023 Vatetech. <span>All Rights Reserved</span></p>
+								</div>
+							</div>
+			
+							<!-- FOOTER SOCIALS -->
+							
+			
+						</div> <!-- End row -->
+					</div> <!-- END BOTTOM FOOTER -->
+			
+				</div> <!-- End container -->
+			</footer>  <!-- END FOOTER-3 -->	
+
+
+
+
+		</div>	<!-- END PAGE CONTENT -->	
+
+
+
+
+		<!-- EXTERNAL SCRIPTS
+		============================================= -->	
+		<script src="js/jquery-3.7.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/jquery.easing.js"></script>
+		<script src="js/jquery.appear.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/pricing-toggle.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/request-form.js"></script>	
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.ajaxchimp.min.js"></script>	
+		<script src="js/popper.min.js"></script>
+		<script src="js/lunar.js"></script>
+		<script src="js/wow.js"></script>
+				
+		<!-- Custom Script -->		
+		<script src="js/custom.js"></script>
+
+		<script>
+			$(document).on({
+			    "contextmenu": function (e) {
+			        console.log("ctx menu button:", e.which); 
+
+			        // Stop the context menu
+			        e.preventDefault();
+			    },
+			    "mousedown": function(e) { 
+			        console.log("normal mouse down:", e.which); 
+			    },
+			    "mouseup": function(e) { 
+			        console.log("normal mouse up:", e.which); 
+			    }
+			});
+		</script>
+
+		<script>
+			$(function() {
+			  $(".switch").click(function() {
+			    $("body").toggleClass("theme--dark");
+				    if( $( "body" ).hasClass( "theme--dark" )) {
+	                	$( ".switch" ).text( "Light Mode" );
+	            	} else {
+	                	$( ".switch" ).text( "Dark Mode" );
+	            	}
+			    });
+			});
+		</script>
+
+		<script>
+			$(document).ready(function() {
+	            if( $( "body" ).hasClass( "theme--dark" )) {
+	                $( ".switch" ).text( "Light Mode" );
+	            } else {
+	                $( ".switch" ).text( "Dark Mode" );
+	            }
+	        });
+		</script>
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->															
+		<!--
+		<script>
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-XXXXX-X']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		-->	
+
+		<script src="js/changer.js"></script>
+		<script defer src="js/styleswitch.js"></script>	
+
+	</body>
+
+
+
 
 </html>
