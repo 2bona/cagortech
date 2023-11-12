@@ -1,1692 +1,538 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Flayware | Managed Migration Services</title>
+
+        <!-- Style CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" >
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+        <link
+            rel="shortcut icon"
+            href="assets/images/flayware-fav.png"
+            type="image/png"
+        >
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&amp;display=swap"
+            rel="stylesheet"
+        >
+        <link
+            href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&amp;display=swap"
+            rel="stylesheet"
+        >
+        <link
+            rel="stylesheet"
+            href="assets/libs/line-awesome/css/line-awesome.min.css"
+        >
+        <link
+            rel="stylesheet"
+            href="assets/libs/bootstrap/css/bootstrap.min.css"
+        >
+        <link
+            rel="stylesheet"
+            href="assets/libs/swiper/swiper-bundle.min.css"
+        >
+        <link rel="stylesheet" href="assets/css/style.css" >
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="preload" class="preload"><div class="spin"></div></div>
+            <!-- BEGIN SITE HEADER -->
+            <header id="header" class="site-header sala-dark-scheme overlay-navy is-transparent">
+                <div class="container-fluid">
+                    <div class="row flex-align-c inner">
+                        <div class="col-lg-3 col-6">
+                            <div class="header-left flex flex-align-c">
+                                <div class="canvas-menu">
+                                    <div class="icon">
+                                        <a href="#">
+                                            <svg width="30px" height="14px" viewBox="0 0 30 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g   stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <g transform="translate(-50.000000, -33.000000)" fill="#111111">
+                                                        <g id="off-menu" transform="translate(50.000000, 28.000000)">
+                                                            <g id="icon-menu" transform="translate(0.000000, 5.000000)">
+                                                                <rect id="Rectangle-1" x="0" y="0" width="30" height="3" rx="1.5"></rect>
+                                                                <rect id="Rectangle-2" x="0" y="11" width="20" height="3" rx="1.5"></rect>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="assets/images/flayware-white.png" alt="" style="width: 10rem; height: auto;">
+                                    </a>
+                                </div>
 
-
-
-
-	<head>
-
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="author" content="DSAThemes">	
-		<meta name="description" content="Vatetech - Cloud Infrastructure Design and Deployment Services">
-		<meta name="keywords" content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">	
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-				
-  		<!-- SITE TITLE -->
-		<title>Vatetech - Cloud Infrastructure Design and Deployment Services</title>
-							
-		<!-- FAVICON AND TOUCH ICONS -->
-		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-		<link rel="icon" href="images/favicon.png" type="image/x-icon">
-		<link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
-		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-		<link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
-
-		<!-- GOOGLE FONTS -->
-		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-		
-		<!-- BOOTSTRAP CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-				
-		<!-- FONT ICONS -->
-		<link href="css/flaticon.css" rel="stylesheet">
-
-		<!-- PLUGINS STYLESHEET -->
-		<link href="css/menu.css" rel="stylesheet">	
-		<link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
-		<link href="css/magnific-popup.css" rel="stylesheet">	
-		<link href="css/owl.carousel.min.css" rel="stylesheet">
-		<link href="css/owl.theme.default.min.css" rel="stylesheet">
-		<link href="css/lunar.css" rel="stylesheet">
-
-		<!-- ON SCROLL ANIMATION -->
-		<link href="css/animate.css" rel="stylesheet">
-
-		<!-- TEMPLATE CSS -->
-		<link href="css/pink-theme.css" rel="stylesheet">
-
-		<!-- Style Switcher CSS -->	
-		<link href="css/blue-theme.css" rel="alternate stylesheet" title="blue-theme">	
-		<link href="css/crocus-theme.css" rel="alternate stylesheet" title="crocus-theme">	
-		<link href="css/green-theme.css" rel="alternate stylesheet" title="green-theme">
-		<link href="css/magenta-theme.css" rel="alternate stylesheet" title="magenta-theme">
-		<link href="css/purple-theme.css" rel="alternate stylesheet" title="purple-theme">
-		<link href="css/skyblue-theme.css" rel="alternate stylesheet" title="skyblue-theme">	
-		<link href="css/red-theme.css" rel="alternate stylesheet" title="red-theme">	
-		<link href="css/violet-theme.css" rel="alternate stylesheet" title="violet-theme">
-		
-		<!-- RESPONSIVE CSS -->
-		<link href="css/responsive.css" rel="stylesheet">
-
-	</head>
-
-
-
-
-	<body>
-
-
-
-
-		<!-- PRELOADER SPINNER
-		============================================= -->	
-		<div id="loading" class="loading--theme">
-			<div id="loading-center"><span class="loader"></span></div>
-		</div>
-
-
-
-
-		
-
-
-
-
-		<!-- PAGE CONTENT
-		============================================= -->	
-		<div id="page" class="page font--jakarta">
-
-
-
-
-			<!-- HEADER
-			============================================= -->
-			<header id="header" class="tra-menu navbar-dark white-scroll">
-				<div class="header-wrapper">
-
-
-					<!-- MOBILE HEADER -->
-				    <div class="wsmobileheader clearfix">	  	
-				    	<span class="smllogo"><img src="images/logo-pink.png" alt="mobile-logo"></span>
-				    	<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>	
-				 	</div>
-
-
-				 	<!-- NAVIGATION MENU -->
-				  	<div class="wsmainfull menu clearfix align-items-center">
-	    				<div class="wsmainwp clearfix">
-
-
-	    					<!-- HEADER BLACK LOGO -->
-	    					<div class="desktoplogo">
-	    						<a href="/" class="logo-black"><img src="images/logo-pink.png" alt="logo"></a>
-	    					</div>
-
-	    					<!-- HEADER WHITE LOGO -->
-	    					<div class="desktoplogo">
-	    						<a href="/" class="logo-white"><img src="images/logo-pink.png" alt="logo"></a>
-	    					</div>
-
-
-	    					<!-- MAIN MENU -->
-	      					<nav class="wsmenu clearfix">
-	        					<ul class="wsmenu-list nav-theme">
-
-
-	        						<!-- DROPDOWN SUB MENU -->
-						          	<li aria-haspopup="true"><a href="/about.html" class="h-link">About </a>
-	            						
-								    </li>
-
-
-								    <!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="/faqs.html" class="h-link">FAQs</a></li>
-							    	
-
-							    	<!-- MEGAMENU -->
-						          	<li aria-haspopup="true" class="mg_link"><a href="/blog.html" class="h-link">Blog</a>
-	            						
-								    </li>	<!-- END MEGAMENU -->
-
-
-								    <!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="/contacts.html" class="h-link">Contact</a></li>
-
-
-						          	
-
-
-								    
-
-
-	        					</ul>
-	        				</nav>	<!-- END MAIN MENU -->
-
-
-	    				</div>
-	    			</div>	<!-- END NAVIGATION MENU -->
-
-
-				</div>     <!-- End header-wrapper -->
-			</header>	<!-- END HEADER -->
-
-
-
-
-			<!-- HERO-13
-			============================================= -->	
-			<section id="hero-13" class="hero-section">
-				<div class="container">
-					<div class="row d-flex align-items-center">
-			
-						<!-- HERO TEXT -->
-						<div class="col-md-5">
-							<div class="hero-13-txt wow fadeInRight">
-			
-								<!-- Section ID -->
-								<span class="section-id">Cloud Infrastructure Experts</span>
-			
-								<!-- Title -->
-								<h2 class="s-54 w-700">Innovative Solutions for Your Cloud Infrastructure</h2>
-			
-								<!-- Text -->
-								<p class="p-lg">We specialize in designing and deploying cloud infrastructure solutions that drive success for your business.</p>
-			
-								<!-- Button -->
-								<a href="/contacts.html" class="btn r-04 btn--theme hover--tra-black">Get started for free</a>
-								
-			
-							</div>
-						</div> <!-- END HERO TEXT -->
-			
-						<!-- HERO IMAGE -->
-						<div class="col-md-7">
-							<div class="hero-13-img wow fadeInLeft">
-								<img class="img-fluid" src="images/hero-13-img.png" alt="hero-image">
-							</div>
-						</div>
-			
-					</div> <!-- End row -->
-				</div> <!-- End container -->
-			</section>
-				<!-- END HERO-13 -->
-
-
-
-
-			<!-- STATISTIC-5
-			============================================= -->
-			<div id="statistic-5" class="py-100 statistic-section division">
-    <div class="container">
-
-        <!-- STATISTIC-1 WRAPPER -->
-        <div class="statistic-5-wrapper">
-            <div class="row row-cols-1 row-cols-md-3">
-
-                <!-- STATISTIC BLOCK #1 -->
-                <div class="col">
-                    <div id="sb-5-1" class="wow fadeInUp">
-                        <div class="statistic-block">
-
-                            <!-- Digit -->
-                            <div class="statistic-digit">
-                                <h2 class="s-44 w-700">
-                                    <span class="count-element">5</span>.<span class="count-element">28</span>k
-                                </h2>
                             </div>
-
-                            <!-- Text -->
-                            <div class="statistic-txt">
-                                <h5 class="s-19 w-700">Cloud Deployments</h5>
-                                <p>Delivering cutting-edge cloud solutions for your business.</p>
+                        </div>
+                        <div class="col-lg-6 col-0 text-center">
+                            <div class="header-center">
+                                <div class="main-menu">
+                                    <div class="menu-action">
+                                        <span class="item menu-back"><i class="las la-arrow-left"></i></span>
+                                        <span class="item menu-close"><i class="las la-times"></i></span>
+                                    </div>
+                                    <ul>
+                                        <li class="is-mega-menu">
+                                            <a href="/">Home</a>
+                                            
+                                        </li>
+                                        <li class="is-mega-menu">
+                                            <a href="/about.html">About</a>
+                                            
+                                        </li>
+                                        <li class="is-mega-menu">
+                                            <a href="/our-team.html">Team</a>
+                                            
+                                        </li>
+                                        <li class="is-mega-menu">
+                                            <a href="/blog.html">Blog</a>
+                                           
+                                        </li>
+                                        <li class="is-normal-menu">
+                                            <a href="/contact.html">Contact</a>
+                                           
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </header>
+            <!-- END SITE HEADER -->
 
+            <!-- BEGIN SITE MAIN -->
+            <main id="main" class="site-main">
+                <div class="site-content pt0 pb0">
+                    <section class="section has-shape background-navy background-auto-center opt120 opb120 overflow-hidden" style="background-image: url(assets/images/hs-02.png);">
+                        <div class="container">
+                            <div class="row flex-align-c">
+                                <div class="col-lg-6">
+                                    <div class="heading heading-alway-white mb32">
+                                        <div class="heading-sub">FLAYWARE - MANAGED MIGRATION SERVICES</div>
+                                        <h2 class="heading-title size-xxl">Simplify Your Transition with Us</h2>
+                                        <div class="heading-desc">Effortless migration solutions tailored to your needs.</div>
+                                    </div>
+                                    <div class="button-wrap mt32">
+                                        <a href="contact.html" class="button fullfield-white xs-mb10" title="Let's Talk">Let's Talk</a>
+                                        <a href="tel:00342834445" class="button text-white xs-mb10" title="Call. + 00 342 834 445">Call. + 00 342 834 445</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="images lg-mt32 layout-02">
+                                        <div class="inner">
+                                            <img class="img01 animate__jump" src="assets/images/hs-01.webp" alt="Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shape-bottom h120">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                                <path fill="var(--sala-neutral-white, $neutral_white)" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+                                <path fill="var(--sala-neutral-white, $neutral_white)" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
+                                <path fill="var(--sala-neutral-white, $neutral_white)" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
+                            </svg>
+                        </div>
+                    </section>
+                    
+                    <div class="clients layout-02 align-center mt60">
+                        <ul class="content">
+                            <li><img src="assets/images/client-01.webp" alt="Client"></li>
+                            <li><img src="assets/images/client-02.webp" alt="Client"></li>
+                            <li><img src="assets/images/client-03.webp" alt="Client"></li>
+                            <li><img src="assets/images/client-04.webp" alt="Client"></li>
+                            <li><img src="assets/images/client-05.png" alt="Client"></li>
+                        </ul>
+                    </div>
+                    <section class="section spdt pb40">
+                        <div class="container">
+                            <div class="heading align-center">
+                                <div class="heading-sub color-navy">Migration Services</div>
+                                <h2 class="heading-title size-l">What We Offer</h2>
+                            </div>
+                            <div class="block-image-box layout-04">
+                                <div class="image-box">
+                                    <div class="thumbnail w80">
+                                        <img src="assets/images/hs-03.png" alt="Thumbnail">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title w600">Data Migration</h4>
+                                        <div class="desc">Effortless data migration solutions tailored to your needs.</div>
+                                        <div class="button-wrap">
+                                            <a href="contact.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right color-navy"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image-box">
+                                    <div class="thumbnail w80">
+                                        <img src="assets/images/hs-04.png" alt="Thumbnail">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title w600">Email Migration</h4>
+                                        <div class="desc">Seamless email migration services for your business.</div>
+                                        <div class="button-wrap">
+                                            <a href="contact.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right color-navy"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image-box">
+                                    <div class="thumbnail w80">
+                                        <img src="assets/images/hs-05.png" alt="Thumbnail">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title w600">Analytics Integration</h4>
+                                        <div class="desc">Unlock insights with our data analytics solutions.</div>
+                                        <div class="button-wrap">
+                                            <a href="contact.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right color-navy"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-wrap align-center mt60">
+                                <a href="contact.html" class="button fullfield" title="Explore more">Explore more</a>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section class="section background-grey has-shape opt160 spdb">
+                        <div class="shape-top r180 h100">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                                <path fill="var(--sala-neutral-white, $neutral_white)" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+                                c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+                                c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"></path>
+                            </svg>
+                        </div>
+                        <div class="container">
+                            <div class="heading align-center">
+                                <div class="heading-sub color-navy">WHY WE'RE DIFFERENT</div>
+                                <h2 class="heading-title size-l">Discover why Flayware is the perfect choice for you</h2>
+                            </div>
+                            <div class="row flex-align-c">
+                                <div class="col-lg-6">
+                                    <img class="wow animate__fadeInUp" src="assets/images/hs-06.png" alt="Image">
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="pdl60 pdr60 lg-mt32">
+                                        <div class="heading mb32">
+                                            <div class="heading-sub color-navy">OUR COMMITMENT</div>
+                                            <h2 class="heading-title">Seamless Migration Services</h2>
+                                            <div class="heading-desc">We ensure a smooth migration experience, removing any obstacles in your path.</div>
+                                        </div>
+                                        <div class="button-wrap">
+                                            <a href="contact.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right color-navy"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row flex-align-c">
+                                <div class="col-lg-6 lg-order-2">
+                                    <div class="pdr60 pdl60 lg-mt32">
+                                        <div class="heading mb32">
+                                            <div class="heading-sub color-navy">OUR APPROACH</div>
+                                            <h2 class="heading-title">Efficient Data Management</h2>
+                                            <div class="heading-desc">We prioritize effective data handling, ensuring you get the most out of your resources.</div>
+                                        </div>
+                                        <div class="button-wrap">
+                                            <a href="contact.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right color-navy"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 lg-order-1">
+                                    <img class="wow animate__fadeInUp" src="assets/images/hs-07.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section class="section section-banner background-grey has-shape layout-11 overflow-hidden">
+                        <div class="shape-bottom r0 h300">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                                <path fill="var(--sala-neutral-white, $neutral_white)" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+                                c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134.0,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+                                c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"></path>
+                            </svg>
+                        </div>
+                        <div class="container">
+                            <div class="inner background-navy">
+                                <div class="row flex-align-c">
+                                    <div class="col-lg-5">
+                                        <div class="images layout-02">
+                                            <div class="inner">
+                                                <img class="img31 wow animate__fadeInUp" src="assets/images/hs-09.png" alt="Image">
+                                                <img class="img32 wow animate__fadeInUp" src="assets/images/hs-08.png" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="content align-left pdr80 lg-pdl30 lg-pdr30 lg-mt32 lg-pdb30">
+                                            <div class="heading heading-alway-white mb32">
+                                                <h2 class="heading-title size-l">Get your free <span class="border-yellow">Migration Analysis</span></h2>
+                                                <div class="heading-desc">Analyze your migration needs and make the right move.</div>
+                                            </div>
+                                            <form action="#" class="newsletter">
+                                                <div class="field-input">
+                                                    <input type="email" name="email" value="" placeholder="Enter your email">
+                                                </div>
+                                                <div class="field-submit">
+                                                    <input type="submit" name="submit" value="Send">
+                                                </div>
+                                                <div class="field-note">
+                                                    <ul>
+                                                        <li>No credit card required</li>
+                                                        <li>Cancel anytime</li>
+                                                    </ul>
+                                                </div>
+                                            </form>
+                                            <img class="animate__jump" src="assets/images/hs-10.png" alt="Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <div class="section-pricing section spdtb">
+                        
+                    </div>
+                    <section class="section has-shape background-yellow spdtb">
+                        <div class="shape-top h50">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                                <path fill="var(--sala-neutral-white, $neutral_white)" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+                            </svg>
+                        </div>
+                        <div class="shape-bottom h50">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                                <path fill="var(--sala-neutral-white, $neutral_white)" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+                            </svg>
+                        </div>
+                        <div class="container">
+                            <div class="heading heading-alway-dark align-center">
+                                <div class="heading-sub color-navy">Migration Services</div>
+                                <h2 class="heading-title size-l">Explore What Our Services Offer</h2>
+                            </div>
+                            <div class="block-testimonial layout-01">
+                                <div
+                                    class="swiper uxp-swiper-slider testimonial-slider"
+                                    data-pagination="testimonial-pagination"
+                                    data-direction="horizontal"
+                                    data-slider-center="false"
+                                    data-slider-loop="false"
+                                    data-gap-xl="30"
+                                    data-gap-md="10"
+                                    data-xl="2"
+                                    data-lg="2"
+                                    data-md="1"
+                                    data-sm="1"
+                                    data-xs="1"
+                                    data-es="1"
+                                >
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="item">
+                                                <p>"Our migration service is top-notch, making your transition smooth and hassle-free."</p>
+                                                <div class="meta">
+                                                    <div class="author">
+                                                        <div class="avatar">
+                                                            <img src="assets/images/post-author-01.jpg" alt="Avatar">
+                                                            <i class="las la-quote-right"></i>
+                                                        </div>
+                                                        <div class="info">
+                                                            <div class="name">John Smith</div>
+                                                            <div class="position">CEO, Flayware</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="logo"><img src="assets/images/client-01.webp" alt="Logo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class= "item">
+                                                <p>"We offer top-quality migration services that ensure a seamless and secure transition."</p>
+                                                <div class="meta">
+                                                    <div class="author">
+                                                        <div class="avatar">
+                                                            <img src="assets/images/post-author-02.jpg" alt="Avatar">
+                                                            <i class="las la-quote-right"></i>
+                                                        </div>
+                                                        <div class="info">
+                                                            <div class="name">Emily Davis</div>
+                                                            <div class="position">COO, Flayware</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="logo"><img src="assets/images/client-02.webp" alt="Logo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="item">
+                                                <p>"Flayware's migration services are second to none, ensuring a smooth and successful transition."</p>
+                                                <div class="meta">
+                                                    <div class="author">
+                                                        <div class="avatar">
+                                                            <img src="assets/images/post-author-02.jpg" alt="Avatar">
+                                                            <i class="las la-quote-right"></i>
+                                                        </div>
+                                                        <div class="info">
+                                                            <div class="name">Sarah Johnson</div>
+                                                            <div class="position">CTO, Flayware</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="logo"><img src="assets/images/client-03.webp" alt="Logo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination testimonial-pagination"></div>
+                                </div>
+                                <img class="shape-01" src="assets/images/hs-11.png" alt="Image">
+                                <img class="shape-02" src="assets/images/hs-12.png" alt="Image">
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section class="section spdt">
+                        
+                    </section>
+                    
+                </div><!-- SITE CONTENT -->
+            </main>
+            <!-- END SITE MAIN -->
+
+            <!-- BEGIN SITE FOOTER -->
+            <footer id="footer" class="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="inner">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="footer-item footer-about">
+                                        <div class="logo">
+                                            <a href="index.html">
+                                                <img src="assets/images/flayware.png" alt="" style="width: 10rem; height: auto;">
+                                            </a>
+                                        </div>
+                                        <p>An amazing migration services startup designed specifically for seamless migrations and IT solutions.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="footer-item footer-menu">
+                                        <h6>Company</h6>
+                                        <ul>
+                                            <li><a href="/about.html" title="About us">About us</a></li>
+                                            <li><a href="/our-team.html" title="Team">Team</a></li>
+                                            <li><a href="/contact.html" title="Contact">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="footer-item footer-menu">
+                                        <h6>Services</h6>
+                                        <ul>
+                                            <li><a href="/migration-services.html" title="Migration Services">Migration Services</a></li>
+                                            <li><a href="/it-solutions.html" title="IT Solutions">IT Solutions</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="footer-item footer-menu">
+                                        <h6>Resources</h6>
+                                        <ul>
+                                            <li><a href="/blog.html" title="Blog">Blog</a></li>
+                                            <li><a href="/contact.html" title="Help Center">Help Center</a></li>
+                                            <li><a href="/privacy-policy.html" title="Privacy">Privacy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div> <!-- END STATISTIC BLOCK #1 -->
-
-                <!-- STATISTIC BLOCK #2 -->
-                <div class="col">
-                    <div id="sb-5-2" class="wow fadeInUp">
-                        <div class="statistic-block">
-
-                            <!-- Digit -->
-                            <div class="statistic-digit">
-                                <h2 class="s-44 w-700">
-                                    <span class="count-element">7</span>.<span class="count-element">36</span>k
-                                </h2>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="inner flex flex-content-sb flex-align-c">
+                            <div class="copyright">© 2023 Flayware. All rights reserved</div>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="privacy-policy.html" title="Privacy Policy">Privacy Policy</a></li>
+                                </ul>
                             </div>
-
-                            <!-- Text -->
-                            <div class="statistic-txt">
-                                <h5 class="s-19 w-700">Infrastructure Solutions</h5>
-                                <p>Creating scalable and efficient infrastructure for your success.</p>
-                            </div>
-
                         </div>
                     </div>
-                </div> <!-- END STATISTIC BLOCK #2 -->
-
-                <!-- STATISTIC BLOCK #3 -->
-                <div class="col">
-                    <div id="sb-5-3" class="wow fadeInUp">
-                        <div class="statistic-block">
-
-                            <!-- Digit -->
-                            <div class="statistic-digit">
-                                <h2 class="s-44 w-700">
-                                    <span class="count-element">4</span>.<span class="count-element">87</span>/5
-                                </h2>
-                            </div>
-
-                            <!-- Text -->
-                            <div class="statistic-txt">
-                                <h5 class="s-19 w-700">Customer Satisfaction</h5>
-                                <p>Providing top-notch service and exceeding customer expectations.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div> <!-- END STATISTIC BLOCK #3 -->
-
-            </div> <!-- End row -->
-        </div> <!-- END STATISTIC-5 WRAPPER -->
-
-    </div> <!-- End container -->
-</div>
-	 <!-- END STATISTIC-5 -->	
-
-
-
-
-			<!-- DIVIDER LINE -->
-			<hr class="divider">
-
-
-
-
-			<!-- FEATURES-13
-			============================================= -->
-			<section id="features-13" class="shape--bg shape--purple-100 pt-100 features-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center">
-			
-						<!-- FEATURES-13 WRAPPER -->
-						<div class="col-md-7 order-last order-md-2">
-							<div class="fbox-13-wrapper wow fadeInRight">
-								<div class="row">
-			
-									<div class="col-md-6">
-			
-										<!-- FEATURE BOX #1 -->
-										<div id="fb-12-1" class="fbox-12 bg--white-100 block-shadow r-12 mb-30">
-			
-											<!-- Icon -->
-											<div class="fbox-ico ico-50">
-												<div class="shape-ico color--theme">
-													<!-- Vector Icon -->
-													<span class="flaticon-graphics"></span>
-													<!-- Shape -->
-													<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-														<path
-															d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-															transform="translate(100 100)" />
-													</svg>
-												</div>
-											</div> <!-- End Icon -->
-			
-											<!-- Text -->
-											<div class="fbox-txt">
-												<h5 class="s-20 w-700">Cloud Solutions</h5>
-												<p>Delivering cutting-edge cloud solutions for your business.</p>
-											</div>
-			
-										</div>
-			
-										<!-- FEATURE BOX #2 -->
-										<div id="fb-12-2" class="fbox-12 bg--white-100 block-shadow r-12">
-											<!-- Icon -->
-											<div class="fbox-ico ico-50">
-												<div class="shape-ico color--theme">
-													<!-- Vector Icon -->
-													<span class="flaticon-idea"></span>
-													<!-- Shape -->
-													<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-														<path
-															d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-															transform="translate(100 100)" />
-													</svg>
-												</div>
-											</div> <!-- End Icon -->
-											<!-- Text -->
-											<div class="fbox-txt">
-												<h5 class="s-20 w-700">Innovative Ideas</h5>
-												<p>Generating innovative ideas to drive your success.</p>
-											</div>
-										</div>
-									</div>
-			
-									<div class="col-md-6">
-										<!-- FEATURE BOX #3 -->
-										<div id="fb-12-3" class="fbox-12 bg--white-100 block-shadow r-12 mb-30">
-											<!-- Icon -->
-											<div class="fbox-ico ico-50">
-												<div class="shape-ico color--theme">
-													<!-- Vector Icon -->
-													<span class="flaticon-analytics"></span>
-													<!-- Shape -->
-													<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-														<path
-															d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-															transform="translate(100 100)" />
-													</svg>
-												</div>
-											</div> <!-- End Icon -->
-											<!-- Text -->
-											<div class="fbox-txt">
-												<h5 class="s-20 w-700">Data Analytics</h5>
-												<p>Utilizing data analytics for informed decisions.</p>
-											</div>
-										</div>
-			
-										<!-- FEATURE BOX #4 -->
-										<div id="fb-12-4" class="fbox-12 bg--white-100 block-shadow r-12">
-											<!-- Icon -->
-											<div class="fbox-ico ico-50">
-												<div class="shape-ico color--theme">
-													<!-- Vector Icon -->
-													<span class="flaticon-search-engine"></span>
-													<!-- Shape -->
-													<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-														<path
-															d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-															transform="translate(100 100)" />
-													</svg>
-												</div>
-											</div> <!-- End Icon -->
-											<!-- Text -->
-											<div class="fbox-txt">
-												<h5 class="s-20 w-700">SEO Strategies</h5>
-												<p>Implementing effective SEO strategies for visibility.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div> <!-- End row -->
-						</div> <!-- END FEATURES-13 WRAPPER -->
-			
-						<!-- TEXT BLOCK -->
-						<div class="col-md-5 order-first order-md-2">
-							<div class="txt-block left-column wow fadeInLeft">
-								<!-- Section ID -->
-								<span class="section-id">Your Success Partner</span>
-			
-								<!-- Title -->
-								<h2 class="s-46 w-700">Empowering Your Cloud Journey</h2>
-			
-								<!-- Text -->
-								<p>We are your trusted partner on the cloud infrastructure journey, providing solutions that drive success for your business.</p>
-			
-								<!-- List -->
-								<ul class="simple-list">
-									<li class="list-item">
-										<p>With our innovative ideas and data analytics, we create cloud solutions tailored to your needs.</p>
-									</li>
-									<li class="list-item">
-										<p>We aim to optimize your digital presence through effective SEO strategies and continuous market research.</p>
-									</li>
-								</ul>
-							</div>
-						</div> <!-- END TEXT BLOCK -->
-					</div> <!-- End row -->
-				</div> <!-- End container -->
-			</section>
-				<!-- END FEATURES-13 -->
-
-
-
-
-			<!-- TEXT CONTENT
-			============================================= -->
-			<section id="lnk-1" class="pt-100 ct-01 content-section division">
-				<div class="container">
-			
-					<!-- SECTION CONTENT (ROW) -->
-					<div class="row d-flex align-items-center">
-			
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6 order-last order-md-2">
-							<div class="txt-block left-column wow fadeInRight">
-			
-								<!-- Section ID -->
-								<span class="section-id">Empowering Success</span>
-			
-								<!-- Title -->
-								<h2 class="s-46 w-700">Strategies and Deployments</h2>
-			
-								<!-- Text -->
-								<p>We specialize in cloud infrastructure design and deployment services, providing the right strategies and implementations for your business. Our aim is to optimize your online presence and deliver efficient solutions to drive your success.</p>
-			
-								<!-- Small Title -->
-								<h5 class="s-24 w-700">Optimize Your Cloud</h5>
-			
-								<!-- CONTENT BOX #1 -->
-								<div class="cbox-1 ico-15">
-			
-									<div class="ico-wrap color--theme">
-										<div class="cbox-1-ico"><span class="flaticon-check"></span></div>
-									</div>
-			
-									<div class="cbox-1-txt">
-										<p>We ensure that your cloud infrastructure is optimized for peak performance.</p>
-									</div>
-			
-								</div>
-			
-								<!-- CONTENT BOX #2 -->
-								<div class="cbox-1 ico-15">
-			
-									<div class="ico-wrap color--theme">
-										<div class="cbox-1-ico"><span class="flaticon-check"></span></div>
-									</div>
-			
-									<div class="cbox-1-txt">
-										<p>We provide solutions that help you succeed in the cloud environment.</p>
-									</div>
-			
-								</div>
-			
-								<!-- CONTENT BOX #3 -->
-								<div class="cbox-1 ico-15">
-			
-									<div class="ico-wrap color--theme">
-										<div class="cbox-1-ico"><span class="flaticon-check"></span></div>
-									</div>
-			
-									<div class="cbox-1-txt">
-										<p>We offer expertise in cloud infrastructure design and deployment services.</p>
-									</div>
-			
-								</div>
-			
-							</div>
-						</div> <!-- END TEXT BLOCK -->
-			
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-6 order-first order-md-2">
-							<div class="img-block right-column wow fadeInLeft">
-								<img class="img-fluid" src="images/img-09.png" alt="content-image">
-							</div>
-						</div>
-			
-					</div> <!-- END SECTION CONTENT (ROW) -->
-			
-				</div> <!-- End container -->
-			</section>
-				<!-- END TEXT CONTENT -->
-
-
-
-
-			<!-- TEXT CONTENT
-			============================================= -->
-			<section class="pt-100 ct-02 content-section division">
-				<div class="container">
-			
-					<!-- SECTION CONTENT (ROW) -->
-					<div class="row d-flex align-items-center">
-			
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-6">
-							<div class="img-block left-column wow fadeInRight">
-								<img class="img-fluid" src="images/img-02.png" alt="content-image">
-							</div>
-						</div>
-			
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6">
-							<div class="txt-block right-column wow fadeInLeft">
-			
-								<!-- Section ID -->
-								<span class="section-id">Seamless Integration</span>
-			
-								<!-- Title -->
-								<h2 class="s-46 w-700">Effortless Tool Integration</h2>
-			
-								<!-- List -->
-								<ul class="simple-list">
-			
-									<li class="list-item">
-										<p>Integrate your essential tools with ease, making the process smooth and efficient.</p>
-									</li>
-			
-									<li class="list-item">
-										<p class="mb-0">Our solutions allow you to seamlessly connect your systems, ensuring a hassle-free experience.</p>
-									</li>
-			
-								</ul>
-			
-							</div>
-						</div> <!-- END TEXT BLOCK -->
-			
-					</div> <!-- END SECTION CONTENT (ROW) -->
-			
-				</div> <!-- End container -->
-			</section>
-				<!-- END TEXT CONTENT -->
-
-
-
-
-			<!-- BOX CONTENT
-			============================================= -->
-			<section id="lnk-2" class="pt-100 ws-wrapper content-section">
-				<div class="container">
-					<div class="bc-5-wrapper bg--04 hidd bg--scroll r-16">
-						<div class="section-overlay">
-			
-							<!-- SECTION TITLE -->
-							<div class="row justify-content-center">
-								<div class="col-md-11 col-lg-9">
-									<div class="section-title wow fadeInUp mb-60">
-			
-										<!-- Title -->
-										<h2 class="s-50 w-700">Empower Your Marketing Strategy</h2>
-			
-										<!-- Text -->
-										<p class="p-xl">We specialize in building customer-centric marketing strategies that enhance your online presence and drive success for your business.</p>
-			
-									</div>
-								</div>
-							</div>
-			
-							<!-- IMAGE BLOCK -->
-							<div class="row justify-content-center">
-								<div class="col">
-									<div class="bc-5-img bc-5-tablet img-block-hidden video-preview wow fadeInUp">
-			
-										<!-- Play Icon -->
-										
-			
-										<!-- Preview Image -->
-										<img class="img-fluid" src="images/tablet-01.png" alt="content-image">
-			
-									</div>
-								</div>
-							</div>
-			
-						</div> <!-- End section overlay -->
-					</div> <!-- End content wrapper -->
-				</div> <!-- End container -->
-			</section>
-				<!-- END BOX CONTENT -->
-
-
-
-
-			<!-- TEXT CONTENT
-			============================================= -->
-			<section class="pt-100 ct-01 content-section division">
-				<div class="container">
-			
-					<!-- SECTION CONTENT (ROW) -->
-					<div class="row d-flex align-items-center">
-			
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6 order-last order-md-2">
-							<div class="txt-block left-column wow fadeInRight">
-			
-								<!-- TEXT BOX -->
-								<div class="txt-box">
-			
-									<!-- Title -->
-									<h5 class="s-24 w-700">Scalable Solutions for Your Growth</h5>
-			
-									<!-- Text -->
-									<p>We offer dynamic solutions that adapt to your evolving needs. Our services ensure that your infrastructure is equipped to grow and scale seamlessly.</p>
-			
-								</div> <!-- END TEXT BOX -->
-			
-								<!-- TEXT BOX -->
-								<div class="txt-box mb-0">
-			
-									<!-- Title -->
-									<h5 class="s-24 w-700">Integrate Your Data Sources</h5>
-			
-									<!-- Text -->
-									<p>Connect your data sources effortlessly. Our services streamline the integration process, allowing you to access and utilize your data sources effectively.</p>
-			
-									<!-- List -->
-									<ul class="simple-list">
-			
-										<li class="list-item">
-											<p>Easily connect your data sources, eliminating the hassle of complex integration. Simplify data access and management.</p>
-										</li>
-			
-										<li class="list-item">
-											<p class="mb-0">Our expert team ensures that your data sources are seamlessly integrated, providing you with valuable insights and information.</p>
-										</li>
-			
-									</ul>
-			
-								</div> <!-- END TEXT BOX -->
-			
-							</div>
-						</div> <!-- END TEXT BLOCK -->
-			
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-6 order-first order-md-2">
-							<div class="img-block right-column wow fadeInLeft">
-								<img class="img-fluid" src="images/img-05.png" alt="content-image">
-							</div>
-						</div>
-			
-					</div> <!-- END SECTION CONTENT (ROW) -->
-			
-				</div> <!-- End container -->
-			</section>
-			<!-- END TEXT CONTENT -->
-
-
-
-
-			<!-- TEXT CONTENT
-			============================================= -->
-			<section class="pt-100 ct-03 content-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center">
-			
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-6 col-lg-7">
-							<div class="img-block left-column wow fadeInRight">
-								<img class="img-fluid" src="images/img-14.png" alt="content-image">
-							</div>
-						</div>
-			
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6 col-lg-5">
-							<div class="txt-block right-column wow fadeInLeft">
-			
-								<!-- Section ID -->
-								<span class="section-id">Enhanced Data Control</span>
-			
-								<!-- Title -->
-								<h2 class="s-46 w-700">Empower Your Digital Marketing with Data</h2>
-			
-								<!-- List -->
-								<ul class="simple-list">
-			
-									<li class="list-item">
-										<p>Access and control your data effortlessly. Our solutions ensure that you have the power to manage your data effectively and make informed decisions.</p>
-									</li>
-			
-									<li class="list-item">
-										<p class="mb-0">Our data-driven approach enables you to harness the full potential of your data for successful digital marketing strategies.</p>
-									</li>
-			
-								</ul>
-			
-							</div>
-						</div> <!-- END TEXT BLOCK -->
-			
-					</div> <!-- End row -->
-				</div> <!-- End container -->
-			</section>
-				<!-- END TEXT CONTENT -->
-
-
-
-
-			<!-- FEATURES-1
-			============================================= -->
-			<section id="features-1" class="pt-100 features-section division">
-				<div class="container">
-			
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-md-10 col-lg-9">
-							<div class="section-title mb-80">
-			
-								<!-- Title -->
-								<h2 class="s-50 w-700">Monitor Progress with Key Metrics</h2>
-			
-								<!-- Text -->
-								<p class="s-21 color--grey">Track your success through valuable metrics.</p>
-			
-							</div>
-						</div>
-					</div>
-			
-					<!-- FEATURES-1 WRAPPER -->
-					<div class="fbox-wrapper text-center">
-						<div class="row row-cols-1 row-cols-md-3">
-			
-							<!-- FEATURE BOX #1 -->
-							<div class="col">
-								<div class="fbox-1 fb-1 wow fadeInUp">
-			
-									<!-- Image -->
-									<div class="fbox-img h-175">
-										<img class="img-fluid light-theme-img" src="images/f_01.png" alt="feature-image">
-										<img class="img-fluid dark-theme-img" src="images/f_01_dark.png" alt="feature-image">
-									</div>
-			
-									<!-- Text -->
-									<div class="fbox-txt">
-										<h6 class="s-22 w-700">User-Friendly Dashboard</h6>
-										<p>Access an intuitive dashboard for monitoring progress, making data-driven decisions, and achieving objectives.</p>
-									</div>
-			
-								</div>
-							</div> <!-- END FEATURE BOX #1 -->
-			
-							<!-- FEATURE BOX #2 -->
-							<div class="col">
-								<div class="fbox-1 fb-2 wow fadeInUp">
-			
-									<!-- Image -->
-									<div class="fbox-img h-175">
-										<img class="img-fluid light-theme-img" src="images/f_05.png" alt="feature-image">
-										<img class="img-fluid dark-theme-img" src="images/f_05_dark.png" alt="feature-image">
-									</div>
-			
-									<!-- Text -->
-									<div class="fbox-txt">
-										<h6 class="s-22 w-700">Seamless Integration</h6>
-										<p>Easily integrate with essential tools and data sources to streamline your deployment and management processes.</p>
-									</div>
-			
-								</div>
-							</div> <!-- END FEATURE BOX #2 -->
-			
-							<!-- FEATURE BOX #3 -->
-							<div class="col">
-								<div class="fbox-1 fb-3 wow fadeInUp">
-			
-									<!-- Image -->
-									<div class="fbox-img h-175">
-										<img class="img-fluid light-theme-img" src="images/f_02.png" alt="feature-image">
-										<img class="img-fluid dark-theme-img" src="images/f_02_dark.png" alt="feature-image">
-									</div>
-			
-									<!-- Text -->
-									<div class="fbox-txt">
-										<h6 class="s-22 w-700">Engagement Analytics</h6>
-										<p>Gain insights into engagement data, analyze user interactions, and make informed decisions for enhanced performance.</p>
-									</div>
-			
-								</div>
-							</div> <!-- END FEATURE BOX #3 -->
-			
-						</div> <!-- End row -->
-					</div> <!-- END FEATURES-1 WRAPPER -->
-			
-				</div> <!-- End container -->
-			</section>
-				<!-- END FEATURES-1 -->
-
-
-
-
-			<!-- INTEGRATIONS-2
-			============================================= -->
-				<!-- END INTEGRATIONS-2 -->
-
-
-
-
-			<!-- TEXT CONTENT
-			============================================= -->
-			<section class="pt-100 ct-01 content-section division">
-				<div class="container">
-			
-					<!-- SECTION CONTENT (ROW) -->
-					<div class="row d-flex align-items-center">
-			
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6 order-last order-md-2">
-							<div class="txt-block left-column wow fadeInRight">
-			
-								<!-- CONTENT BOX #1 -->
-								<div class="cbox-4">
-			
-									<!-- Icon & Title -->
-									<div class="box-title">
-										<span class="flaticon-paper-sizes color--theme"></span>
-										<h5 class="s-24 w-700">Automated Infrastructure</h5>
-									</div>
-			
-									<!-- Text -->
-									<div class="cbox-4-txt">
-										<p>Our automated solutions simplify infrastructure management, providing efficient, reliable services that save you time and effort.</p>
-									</div>
-			
-								</div> <!-- END CONTENT BOX #1 -->
-			
-								<!-- CONTENT BOX #2 -->
-								<div class="cbox-4">
-			
-									<!-- Icon & Title -->
-									<div class="box-title">
-										<span class="flaticon-layers-1 color--theme"></span>
-										<h5 class="s-24 w-700">Streamlined Workflows</h5>
-									</div>
-			
-									<!-- Text -->
-									<div class="cbox-4-txt">
-										<p>Experience seamless workflows and processes that make deployment and management a breeze, optimizing your operations.</p>
-									</div>
-			
-								</div> <!-- END CONTENT BOX #2 -->
-			
-								<!-- CONTENT BOX #3 -->
-								<div class="cbox-4">
-			
-									<!-- Icon & Title -->
-									<div class="box-title">
-										<span class="flaticon-pie-chart color--theme"></span>
-										<h5 class="s-24 w-700">Data-Driven Insights</h5>
-									</div>
-			
-									<!-- Text -->
-									<div class="cbox-4-txt">
-										<p class="mb-0">Real-time analytics and data-driven decision-making empower your organization with valuable insights and intelligence.</p>
-									</div>
-			
-								</div> <!-- END CONTENT BOX #3 -->
-			
-							</div>
-						</div> <!-- END TEXT BLOCK -->
-			
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-6 order-first order-md-2">
-							<div class="img-block right-column wow fadeInLeft">
-								<img class="img-fluid" src="images/img-08.png" alt="content-image">
-							</div>
-						</div>
-			
-					</div> <!-- END SECTION CONTENT (ROW) -->
-			
-				</div> <!-- End container -->
-			</section>
-				<!-- END TEXT CONTENT -->
-
-
-
-
-			<!-- FEATURES-5
-			============================================= -->
-			<section id="features-5" class="pt-100 features-section division">
-				<div class="container">
-			
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-md-10 col-lg-9">
-							<div class="section-title mb-70">
-			
-								<!-- Title -->
-								<h2 class="s-50 w-700">Expand Your Reach with Social Media Marketing</h2>
-			
-								<!-- Text -->
-								<p class="s-21 color--grey">Unlock the power of cloud infrastructure to elevate your online presence.</p>
-			
-							</div>
-						</div>
-					</div>
-			
-					<!-- FEATURES-5 WRAPPER -->
-					<div class="fbox-wrapper text-center">
-						<div class="row d-flex align-items-center">
-			
-							<!-- FEATURE BOX #1 -->
-							<div class="col-md-6">
-								<div class="fbox-5 fb-1 gr--smoke r-16 wow fadeInUp">
-			
-									<!-- Text -->
-									<div class="fbox-txt order-last order-md-2">
-										<h5 class="s-26 w-700">Infrastructure Integration</h5>
-										<p>Seamlessly integrate cloud infrastructure into your marketing efforts to enhance your capabilities.</p>
-									</div>
-			
-									<!-- Image -->
-									<div class="fbox-5-img order-first order-md-2">
-										<img class="img-fluid light-theme-img" src="images/f_06.png" alt="feature-image">
-										<img class="img-fluid dark-theme-img" src="images/f_06_dark.png" alt="feature-image">
-									</div>
-			
-								</div>
-							</div> <!-- END FEATURE BOX #1 -->
-			
-							<!-- FEATURE BOX #2 -->
-							<div class="col-md-6">
-								<div class="fbox-5 fb-2 gr--smoke r-16 wow fadeInUp">
-			
-									<!-- Image -->
-									<div class="fbox-5-img">
-										<img class="img-fluid light-theme-img" src="images/f_04.png" alt="feature-image">
-										<img class="img-fluid dark-theme-img" src="images/f_04_dark.png" alt="feature-image">
-									</div>
-			
-									<!-- Text -->
-									<div class="fbox-txt">
-										<h5 class="s-26 w-700">Boost Engagement</h5>
-										<p>Engage your audience through innovative cloud solutions that drive interaction and growth.</p>
-									</div>
-			
-								</div>
-							</div> <!-- END FEATURE BOX #2 -->
-			
-						</div> <!-- End row -->
-					</div> <!-- END FEATURES-5 WRAPPER -->
-			
-				</div> <!-- End container -->
-			</section>
-				<!-- END FEATURES-5 -->
-
-
-
-
-			<!-- TESTIMONIALS-2
-			============================================= -->
-			<section id="reviews-2" class="pt-100 reviews-section">
-				<div class="container">
-			
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-md-10 col-lg-9">
-							<div class="section-title mb-70">
-			
-								<!-- Title -->
-								<h2 class="s-50 w-700">Customer Success Stories</h2>
-			
-								<!-- Text -->
-								<p class="s-21 color--grey">Discover what our satisfied clients have to say about our services.</p>
-			
-							</div>
-						</div>
-					</div>
-			
-					<!-- TESTIMONIALS-2 WRAPPER -->
-					<div class="reviews-2-wrapper rel shape--02 shape--whitesmoke">
-						<div class="row align-items-center row-cols-1 row-cols-md-2">
-			
-							<!-- TESTIMONIAL #1 -->
-							<div class="col">
-								<div id="rw-2-1" class="review-2 bg--white-100 block-shadow r-08">
-			
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-			
-									<!-- Text -->
-									<div class="review-txt">
-			
-										<!-- Text -->
-										<p>Our cloud infrastructure services helped us transform our business. The support from the team at vatetech.site has been outstanding.</p>
-			
-										<!-- Author -->
-										<div class="author-data clearfix">
-			
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-1.jpg" alt="review-avatar">
-											</div>
-			
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Scott Boxer</h6>
-												<p class="p-sm">@scott_boxer</p>
-											</div>
-			
-										</div> <!-- End Author -->
-			
-									</div> <!-- End Text -->
-			
-								</div>
-							</div> <!-- END TESTIMONIAL #1 -->
-			
-							<!-- TESTIMONIAL #2 -->
-							<div class="col">
-								<div id="rw-2-2" class= "review-2 bg--white-100 block-shadow r-08">
-			
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-			
-									<!-- Text -->
-									<div class="review-txt">
-			
-										<!-- Text -->
-										<p>We have achieved great results with the cloud infrastructure design and deployment services from vatetech.site. It has been a game-changer for our online presence.</p>
-			
-										<!-- Author -->
-										<div class="author-data clearfix">
-			
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-2.jpg" alt="review-avatar">
-											</div>
-			
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Joel Peterson</h6>
-												<p class="p-sm">Online Entrepreneur</p>
-											</div>
-			
-										</div> <!-- End Author -->
-			
-									</div> <!-- End Text -->
-									
-								</div>
-							</div> <!-- END TESTIMONIAL #2 -->
-			
-							<!-- TESTIMONIAL #3 -->
-							<div class="col">
-								<div id="rw-2-3" class="review-2 bg--white-100 block-shadow r-08">
-			
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-			
-									<!-- Text -->
-									<div class="review-txt">
-			
-										<!-- Text -->
-										<p>We have found vatetech's cloud infrastructure services to be highly efficient, and the real-time analytics have provided invaluable insights for our app development projects.</p>
-			
-										<!-- Author -->
-										<div class="author-data clearfix">
-			
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-5.jpg" alt="review-avatar">
-											</div>
-			
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Jennifer Harper</h6>
-												<p class="p-sm">App Developer</p>
-											</div>
-			
-										</div> <!-- End Author -->
-			
-									</div> <!-- End Text -->
-									
-								</div>
-							</div> <!-- END TESTIMONIAL #3 -->
-			
-							<!-- TESTIMONIAL #4 -->
-							<div class="col">
-								<div id="rw-2-4" class="review-2 bg--white-100 block-shadow r-08">
-			
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-			
-									<!-- Text -->
-									<div class="review-txt">
-			
-										<!-- Text -->
-										<p>Vatetech's cloud infrastructure services have significantly improved our website performance. Their support has been exceptional, making them a reliable partner for our WordPress projects.</p>
-			
-										<!-- Author -->
-										<div class="author-data clearfix">
-			
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-8.jpg" alt="review-avatar">
-											</div>
-			
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Evelyn Martinez</h6>
-												<p class="p-sm">WordPress Consultant</p>
-											</div>
-			
-										</div> <!-- End Author -->
-			
-									</div> <!-- End Text -->
-									
-								</div>
-							</div> <!-- END TESTIMONIAL #4 -->
-			
-						</div> <!-- End row -->
-					</div> <!-- END TESTIMONIALS-2 WRAPPER -->
-			
-				</div> <!-- End container -->
-			</section>
-				<!-- END TESTIMONIALS-2 -->
-
-
-
-
-			<!-- BRANDS-1
-			============================================= -->
-			<div id="brands-1" class="py-100 brands-section">
-				<div class="container">	
-
-
-					<!-- BRANDS TITLE -->
-					<div class="row justify-content-center">	
-						<div class="col-md-10 col-lg-9">
-							<div class="brands-title mb-50">
-								<h5 class="s-20 w-700">Trusted and used by over 3,400 companies</h5>
-							</div>
-						</div>
-					</div>
-
-
-					<!-- BRANDS CAROUSEL -->				
-					<div class="row">
-						<div class="col text-center">	
-							<div class="owl-carousel brands-carousel-6">
-
-												
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-1.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-1-white.png" alt="brand-logo"></a>
-								</div>
-
-													
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-2.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-3-white.png" alt="brand-logo"></a>
-								</div>
-
-													
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-4.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-4-white.png" alt="brand-logo"></a>
-								</div>
-
-													
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-5.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-5-white.png" alt="brand-logo"></a>
-								</div>
-
-													
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-6.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-6-white.png" alt="brand-logo"></a>
-								</div>
-
-													
-								
-
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-8.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-8-white.png" alt="brand-logo"></a>
-								</div>
-
-															
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<a href="#"><img class="img-fluid light-theme-img" src="images/brand-9.png" alt="brand-logo"></a>
-									<a href="#"><img class="img-fluid dark-theme-img" src="images/brand-9-white.png" alt="brand-logo"></a>
-								</div>
-
-
-							</div>	
-						</div>
-					</div>  <!-- END BRANDS CAROUSEL -->
-
-
-				</div>	<!-- End container -->
-			</div>	<!-- END BRANDS-1 -->
-
-
-
-
-			<!-- TEXT CONTENT
-			============================================= -->
-			<section class="bg--white-400 py-100 ct-04 content-section division">
-				<div class="container">
-			
-					<!-- SECTION CONTENT (ROW) -->
-					<div class="row d-flex align-items-center">
-			
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6 order-last order-md-2">
-							<div class="txt-block left-column wow fadeInRight">
-			
-								<!-- CONTENT BOX #1 -->
-								<div class="cbox-2 process-step">
-			
-									<!-- Icon -->
-									<div class="ico-wrap">
-										<div class="cbox-2-ico bg--theme color--white">1</div>
-										<span class="cbox-2-line"></span>
-									</div>
-			
-									<!-- Text -->
-									<div class="cbox-2-txt">
-										<h5 class="s-22 w-700">Simplify Cloud Deployment</h5>
-										<p>Our mission is to simplify, optimize, and automate your cloud infrastructure deployment. We make it easy for startups to get started.</p>
-									</div>
-			
-								</div> <!-- END CONTENT BOX #1 -->
-			
-								<!-- CONTENT BOX #2 -->
-								<div class="cbox-2 process-step">
-			
-									<!-- Icon -->
-									<div class="ico-wrap">
-										<div class="cbox-2-ico bg--theme color--white">2</div>
-										<span class="cbox-2-line"></span>
-									</div>
-			
-									<!-- Text -->
-									<div class="cbox-2-txt">
-										<h5 class="s-22 w-700">Enhanced Cloud Security</h5>
-										<p>We prioritize enhanced security features to protect your valuable data. Your peace of mind is our top priority.</p>
-									</div>
-			
-								</div> <!-- END CONTENT BOX #2 -->
-			
-								<!-- CONTENT BOX #3 -->
-								<div class="cbox-2 process-step">
-			
-									<!-- Icon -->
-									<div class="ico-wrap">
-										<div class="cbox-2-ico bg--theme color--white">3</div>
-									</div>
-			
-									<!-- Text -->
-									<div class="cbox-2-txt">
-										<h5 class="s-22 w-700">Respect for Data Privacy</h5>
-										<p class="mb-0">We operate with a strict policy of not collecting any personal data. Your privacy is safe with us.</p>
-									</div>
-			
-								</div> <!-- END CONTENT BOX #3 -->
-			
-							</div>
-						</div> <!-- END TEXT BLOCK -->
-			
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-6 order-first order-md-2">
-							<div class="img-block wow fadeInLeft">
-								<img class="img-fluid" src="images/tablet-01.png" alt="content-image">
-							</div>
-						</div>
-			
-					</div> <!-- END SECTION CONTENT (ROW) -->
-			
-				</div> <!-- End container -->
-			</section>
-				<!-- END TEXT CONTENT -->
-
-
-
-
-			<!-- FAQs-3
-			============================================= -->
-			<section id="faqs-3" class="pt-100 faqs-section">
-				<div class="container">
-			
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-md-10 col-lg-9">
-							<div class="section-title mb-70">
-			
-								<!-- Title -->
-								<h2 class="s-50 w-700">Frequently Asked Questions</h2>
-			
-								<!-- Text -->
-								<p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p>
-			
-							</div>
-						</div>
-					</div>
-			
-					<!-- FAQs-3 QUESTIONS -->
-					<div class="faqs-3-questions">
-						<div class="row">
-			
-							<!-- QUESTIONS HOLDER -->
-							<div class="col-lg-6">
-								<div class="questions-holder">
-			
-									<!-- QUESTION #1 -->
-									<div class="question mb-35 wow fadeInUp">
-			
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>1.</span> Exploring Our Services</h5>
-			
-										<!-- Answer -->
-										<p class="color--grey">Learn how to get started with our cloud infrastructure design and deployment services. We'll guide you through the process.</p>
-			
-									</div>
-			
-									<!-- QUESTION #2 -->
-									<div class="question mb-35 wow fadeInUp">
-			
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>2.</span> What's Included in Our Packages?</h5>
-			
-										<!-- Answer -->
-										<p class="color--grey">Discover the contents of our service packages and the value they bring. We cover all the details for you.</p>
-			
-									</div>
-			
-									<!-- QUESTION #3 -->
-									<div class="question mb-35 wow fadeInUp">
-			
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>3.</span> Choosing the Right Plan</h5>
-			
-										<!-- Answer -->
-										<ul class="simple-list color--grey">
-											<li class="list-item">
-												<p>Find the perfect plan that suits your startup's needs. We offer a range of options to match your requirements.</p>
-											</li>
-											<li class="list-item">
-												<p>We provide a variety of resources and tools to help you make the right decision for your cloud infrastructure.</p>
-											</li>
-										</ul>
-			
-									</div>
-								</div>
-							</div> <!-- END QUESTIONS HOLDER -->
-			
-							<!-- QUESTIONS WRAPPER -->
-							<div class="col-lg-6">
-								<div class="questions-holder">
-			
-									<!-- QUESTION #4 -->
-									<div class="question mb-35 wow fadeInUp">
-			
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>4.</span> Ensuring Data Privacy</h5>
-			
-										<!-- Answer -->
-										<p class="color--grey">Learn how we prioritize the privacy of your data and what measures we take to protect it. Your trust is our priority.</p>
-			
-									</div>
-			
-									<!-- QUESTION #5 -->
-									<div class="question mb-35 wow fadeInUp">
-			
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>5.</span> Account Issues and Support</h5>
-			
-										<!-- Answer -->
-										<p class="color--grey">Facing an issue with your account? Discover how our support team can assist you with any problems you encounter.</p>
-			
-									</div>
-			
-									<!-- QUESTION #6 -->
-									<div class="question mb-35 wow fadeInUp">
-			
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>6.</span> Flexible Subscription Plans</h5>
-			
-										<!-- Answer -->
-										<p class="color--grey">Find out how you can easily manage your subscription. We offer flexibility and convenience for our customers.</p>
-			
-									</div>
-								</div>
-							</div> <!-- END QUESTIONS HOLDER -->
-			
-						</div> <!-- End row -->
-					</div> <!-- END FAQs-3 QUESTIONS -->
-			
-					<!-- MORE QUESTIONS LINK -->
-					<div class="row">
-						<div class="col">
-							<div class="more-questions mt-40">
-								<div class="more-questions-txt bg--white-400 r-100">
-									<p class="p-lg">Still have questions? <a href="contacts.html" class="color--theme">Contact us</a> for more information.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> <!-- End container -->
-			</section>
-				<!-- END FAQs-3 -->
-
-
-
-
-			<!-- BANNER-13
-			============================================= -->
-			<section id="banner-13" class="pt-100 banner-section">
-				<div class="container">
-			
-					<!-- BANNER-13 WRAPPER -->
-					<div class="banner-13-wrapper bg--03 bg--scroll r-16 block-shadow">
-						<div class="banner-overlay">
-							<div class="row d-flex align-items-center">
-			
-								<!-- BANNER-5 TEXT -->
-								<div class="col-md-7">
-									<div class="banner-13-txt color--white">
-			
-										<!-- Title -->
-										<h2 class="s-46 w-700">Embark on Your Cloud Infrastructure Journey with Vatetech!</h2>
-			
-										<!-- Text -->
-										<p class="p-lg">Discover a world of opportunities in cloud infrastructure design and deployment services. Vatetech is your trusted partner for a seamless cloud experience.</p>
-			
-										<!-- Button -->
-										<a href="/contacts.html" class="btn r-04 btn--theme hover--tra-white" data-bs-toggle="modal" data-bs-target="#modal-3">Get Started - It's Free</a>
-			
-									</div>
-								</div> <!-- END BANNER-13 TEXT -->
-			
-								<!-- BANNER-13 IMAGE -->
-								<div class="col-md-5">
-									<div class="banner-13-img text-center">
-										<img class="img-fluid" src="images/img-04.png" alt="banner-image">
-									</div>
-								</div>
-			
-							</div> <!-- End row -->
-						</div> <!-- End banner overlay -->
-					</div> <!-- END BANNER-13 WRAPPER -->
-			
-				</div> <!-- End container -->
-			</section>
-				<!-- END BANNER-13 -->
-
-
-
-
-			
-
-
-
-
-			<!-- FOOTER-3
-			============================================= -->
-			<footer id="footer-3" class="pt-100 footer ft-3-ntr">
-				<div class="container">
-			
-					<!-- FOOTER CONTENT -->
-					<div class="row">
-			
-						<!-- FOOTER LOGO -->
-						<div class="col-xl-3">
-							<div class="footer-info">
-								<img class="footer-logo" src="images/logo-pink.png" alt="footer-logo">
-								<img class="footer-logo-dark" src="images/logo-pink-white.png" alt="footer-logo">
-							</div>
-						</div>
-			
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-4 col-lg-3 col-xl-2">
-							<div class="footer-links fl-1">
-			
-								<!-- Title -->
-								<h6 class="s-17 w-700">Company</h6>
-			
-								<!-- Links -->
-								<ul class="foo-links clearfix">
-									<li><p><a href="about.html">About Vatetech</a></p></li>
-									<li><p><a href="blog.html">Blog</a></p></li>
-									<li><p><a href="/contacts.html">Contact</a></p></li>
-								</ul>
-			
-							</div>
-						</div> <!-- END FOOTER LINKS -->
-			
-						<!-- FOOTER LINKS -->
-						
-			
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-4 col-lg-3 col-xl-2">
-							<div class= "footer-links fl-3">
-			
-								<!-- Title -->
-								<h6 class="s-17 w-700">Legal</h6>
-			
-								<!-- Links -->
-								<ul class="foo-links clearfix">
-									<li><p><a href="/faqs.html">FAQs</a></p></li>
-								</ul>
-			
-							</div>
-						</div> <!-- END FOOTER LINKS -->
-			
-						<!-- FOOTER NEWSLETTER FORM -->
-						<div class="col-sm-10 col-md-8 col-lg-4 col-xl-3">
-							<div class="footer-form">
-			
-								<!-- Title -->
-								<h6 class="s-17 w-700">Stay Informed</h6>
-			
-								<!-- Newsletter Form Input -->
-								<form class="newsletter-form">
-									<div class="input-group r-06">
-										<input type="email" class="form-control" placeholder="Email Address" required id="s-email">
-										<span class="input-group-btn ico-15">
-											<button type="submit" class="btn color--theme">
-												<span class="flaticon-right-arrow-1"></span>
-											</button>
-										</span>
-									</div>
-			
-									<!-- Newsletter Form Notification -->
-									<label for="s-email" class="form-notification"></label>
-			
-								</form>
-			
-							</div>
-						</div> <!-- END FOOTER NEWSLETTER FORM -->
-					</div> <!-- END FOOTER CONTENT -->
-			
-					<hr> <!-- FOOTER DIVIDER LINE -->
-			
-					<!-- BOTTOM FOOTER -->
-					<div class="bottom-footer">
-						<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-			
-							<!-- FOOTER COPYRIGHT -->
-							<div class="col">
-								<div class="footer-copyright">
-									<p class="p-sm">&copy; 2023 Vatetech. <span>All Rights Reserved</span></p>
-								</div>
-							</div>
-			
-							<!-- FOOTER SOCIALS -->
-							
-			
-						</div> <!-- End row -->
-					</div> <!-- END BOTTOM FOOTER -->
-			
-				</div> <!-- End container -->
-			</footer>
-			  <!-- END FOOTER-3 -->	
-
-
-
-
-		</div>	<!-- END PAGE CONTENT -->	
-
-
-
-
-		<!-- EXTERNAL SCRIPTS
-		============================================= -->	
-		<script src="js/jquery-3.7.0.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>	
-		<script src="js/modernizr.custom.js"></script>
-		<script src="js/jquery.easing.js"></script>
-		<script src="js/jquery.appear.js"></script>
-		<script src="js/menu.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/pricing-toggle.js"></script>
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<script src="js/request-form.js"></script>	
-		<script src="js/jquery.validate.min.js"></script>
-		<script src="js/jquery.ajaxchimp.min.js"></script>	
-		<script src="js/popper.min.js"></script>
-		<script src="js/lunar.js"></script>
-		<script src="js/wow.js"></script>
-				
-		<!-- Custom Script -->		
-		<script src="js/custom.js"></script>
-
-		<script>
-			$(document).on({
-			    "contextmenu": function (e) {
-			        console.log("ctx menu button:", e.which); 
-
-			        // Stop the context menu
-			        e.preventDefault();
-			    },
-			    "mousedown": function(e) { 
-			        console.log("normal mouse down:", e.which); 
-			    },
-			    "mouseup": function(e) { 
-			        console.log("normal mouse up:", e.which); 
-			    }
-			});
-		</script>
-
-		<script>
-			$(function() {
-			  $(".switch").click(function() {
-			    $("body").toggleClass("theme--dark");
-				    if( $( "body" ).hasClass( "theme--dark" )) {
-	                	$( ".switch" ).text( "Light Mode" );
-	            	} else {
-	                	$( ".switch" ).text( "Dark Mode" );
-	            	}
-			    });
-			});
-		</script>
-
-		<script>
-			$(document).ready(function() {
-	            if( $( "body" ).hasClass( "theme--dark" )) {
-	                $( ".switch" ).text( "Light Mode" );
-	            } else {
-	                $( ".switch" ).text( "Dark Mode" );
-	            }
-	        });
-		</script>
-
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->															
-		<!--
-		<script>
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-XXXXX-X']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-		-->	
-
-		<script src="js/changer.js"></script>
-		<script defer src="js/styleswitch.js"></script>	
-
-	</body>
-
-
-
-
+                </div>
+            </footer>
+            
+            <!-- END SITE FOOTER -->
+
+
+            <!-- BEGIN BACK TO TOP -->
+            <a
+                href="#"
+                id="backtotop"
+                class="backtotop"
+            >
+                <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M5.52344 18.5234C5.3151 18.3151 5.3151 18.0938 5.52344 17.8594L13.7266 9.69531C13.9349 9.46094 14.1432 9.46094 14.3516 9.69531L22.5547 17.8594C22.763 18.0938 22.763 18.3151 22.5547 18.5234L21.7734 19.3047C21.5651 19.5391 21.3438 19.5391 21.1094 19.3047L14.0391 12.2344L6.96875 19.3047C6.73438 19.5391 6.51302 19.5391 6.30469 19.3047L5.52344 18.5234Z"
+                        fill="#ffffff"
+                    ></path>
+                </svg>
+            </a>
+            <!-- END BACK TO TOP -->
+
+            <!-- BEGIN SWITCHER -->
+           
+            <!-- END SWITCHER -->
+
+            <!-- BEGIN POPUP -->
+            <div id="popup-wrap" class="popup-wrap popup-video">
+                <div class="overlay"></div>
+                <span class="close">
+                    <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M15.3672 14.5L20.2109 19.3438C20.3411 19.474 20.3411 19.6172 20.2109 19.7734L19.3125 20.6719C19.1562 20.8021 19.013 20.8021 18.8828 20.6719L18.0625 19.8125L14.0391 15.8281L9.19531 20.6719C9.0651 20.8021 8.92188 20.8021 8.76562 20.6719L7.86719 19.7734C7.73698 19.6172 7.73698 19.474 7.86719 19.3438L12.7109 14.5L7.86719 9.65625C7.73698 9.52604 7.73698 9.38281 7.86719 9.22656L8.76562 8.32812C8.92188 8.19792 9.0651 8.19792 9.19531 8.32812L14.0391 13.1719L18.8828 8.32812C19.013 8.19792 19.1562 8.19792 19.3125 8.32812L20.2109 9.22656C20.3411 9.38281 20.3411 9.52604 20.2109 9.65625L19.3516 10.4766L15.3672 14.5Z"
+                            fill="#ffffff"
+                        ></path>
+                    </svg>
+                </span>
+                <div class="inner">
+                    <iframe
+                        src="https://www.youtube.com/embed/vfhzo499OeA?controls=0"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            </div>
+            <!-- END POPUP -->
+        </div>
+
+        <!-- jQuery -->
+        <script src="assets/js/jquery-1.12.4.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/libs/waypoints/jquery.waypoints.min.js"></script>
+        <script src="assets/libs/wowjs/wow.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
