@@ -95,8 +95,8 @@ Text color
 /*---------------------------------------------------------------------
 Background  color
 -----------------------------------------------------------------------*/
-.main-bg { background: #0D1E67; }
-.blue-bg { background: #141E46; }
+.main-bg { background: #FFC436; }
+.blue-bg { background:#FFC436; }
 .gray-bg { background: #F5F7FD; }
 .light-gray-bg { background: #f8f9fa; }
 .black-bg { background: #24262b; }
@@ -148,7 +148,7 @@ Button
 /*---------------------------------------------------------------------
    Section Title
 -----------------------------------------------------------------------*/
-.iq-title-box .iq-subtitle { color: #0D1E67; display: inline-block; }
+.iq-title-box .iq-subtitle { color: #FFC436; display: inline-block; }
 .iq-title-box .iq-title { margin-bottom: 0; }
 .iq-title-box .iq-title-desc { margin-top: 15px; margin-bottom: 0; }
 .iq-title-box { margin-bottom: 45px; }
@@ -156,10 +156,10 @@ Button
 
 /* Title Box Text Left*/
 .iq-title-box.text-center { margin-bottom: 45px; }
-.iq-title-white  .iq-subtitle, .iq-title-white  .iq-title, .iq-title-white  .iq-title-desc, .iq-title-box i { color: #ffffff; }
+.iq-title-white  .iq-subtitle, .iq-title-white  .iq-title, .iq-title-white  .iq-title-desc, .iq-title-box i { color: #000000; }
 
 /*style 2*/
-.iq-title-box.iq-title-box-2 .iq-subtitle {     color: #C70039; background-color: #F2F5FE; padding: 2px 20px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; margin-bottom: 15px; }
+.iq-title-box.iq-title-box-2 .iq-subtitle {     color: #FFC436; background-color: #F2F5FE; padding: 2px 20px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; margin-bottom: 15px; }
 
 /*----------------------------------------------------------------------
  Form
@@ -188,5 +188,5 @@ input:hover, input.form-control:hover, input:focus, input.form-control:focus, te
 /*---------------------------------------------------------------------
                              Back to Top
 -----------------------------------------------------------------------*/
-#back-to-top .top { z-index: 999; position: fixed; margin: 0px; color: #ffffff; background: #141E46; position: fixed; bottom: 30px; right: 25px; z-index: 999; font-size: 26px; width: 50px; height: 50px; text-align: center; line-height: 50px; border-radius: 10px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+#back-to-top .top { z-index: 999; position: fixed; margin: 0px; color: #FFC436; background: #000; position: fixed; bottom: 30px; right: 25px; z-index: 999; font-size: 26px; width: 50px; height: 50px; text-align: center; line-height: 50px; border-radius: 10px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
 #back-to-top .top:hover { background: #ffffff; color: #0D1E67; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
