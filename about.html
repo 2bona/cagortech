@@ -1,706 +1,573 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Veescorp - Software Development On Demand</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.png" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Typography CSS -->
-    <link rel="stylesheet" href="css/typography.css">
-    <!-- Style CSS -->
-    <link rel='stylesheet' href='css/qloud-style.css' />
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+	<meta charset="UTF-8">
+	<meta name="keywords"
+		content="Digital marketing agency, Digital marketing company, Digital marketing services, sass, software company">
+	<meta name="description"
+		content="Deski is a creative saas and software html template designed for saas and software Agency websites.">
+	<meta property="og:site_name" content="deski">
+	<meta property="og:url" content="https://heloshape.com/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Deski: creative saas and software html template">
+	<meta name='og:image' content='images/assets/ogg.png'>
+	<!-- For IE -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- For Resposive Device -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- For Window Tab Color -->
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#655C97">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#655C97">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#655C97">
+	<title>Entravelware || Data Analytics</title>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="56x56" href="images/favicon.png">
+	<!-- Main style sheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- responsive style sheet -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<!-- Fix Internet Explorer ______________________________________-->
+	<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
 </head>
 
 <body>
-    <!-- loading -->
-    <div id="loading">
-        <div id="loading-center">
-            <div class="load-img">
-                <img src="./images/loader.gif" alt="loader">
-            </div>
-        </div>
-    </div>
-    <!-- loading End -->
-    <!-- Header -->
-    <header id="main-header" class="header-main header2 menu-sticky animated slideInUp">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <img style="
-                             width: 205px;
-                             height: 95px;
-                         " class="img-fluid" src="images/veescorp.jpg" alt="img">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="menu-btn d-inline-block" id="menu-btn">
-                                <span class="line"></span>
-                                <span class="line"></span>
-                                <span class="line"></span>
-                            </span>
-                            <span class="ion-navicon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                                <li class="nav-item ">
-                                    <a class="nav-link  -toggle" href="index.html" id="navbar" role="button"
-                                        data-toggle="" aria-haspopup="true" aria-expanded="false">Home</a>
+	<div class="main-page-wrapper p0">
+		<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+		<section>
+			<div id="preloader">
+				<div id="ctn-preloader" class="ctn-preloader">
+					<div class="animation-preloader">
+						<div class="spinner"></div>
+						<div class="txt-loading">
+							<span data-text-preloader="E" class="letters-loading">
+								E
+							</span>
+							<span data-text-preloader="N" class="letters-loading">
+								N
+							</span>
+							<span data-text-preloader="T" class="letters-loading">
+								T
+							</span>
+							<span data-text-preloader="R" class="letters-loading">
+								R
+							</span>
+							<span data-text-preloader="A" class="letters-loading">
+								A
+							</span>
+							<span data-text-preloader="V" class="letters-loading">
+								V
+							</span>
+							<span data-text-preloader="E" class="letters-loading">
+								E
+							</span>
+							<span data-text-preloader="L" class="letters-loading">
+								L
+							</span>
+							<span data-text-preloader="W" class="letters-loading">
+								W
+							</span>
+							<span data-text-preloader="A" class="letters-loading">
+								A
+							</span>
+							<span data-text-preloader="R" class="letters-loading">
+								R
+							</span>
+							<span data-text-preloader="E" class="letters-loading">
+								E
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link active -toggle" href="/about.html" id="navbar" role="button"
-                                        data-toggle="" aria-haspopup="true" aria-expanded="false">About</a>
 
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link -toggle" href="faq.html" id="navbarDropdown-2" role="button"
-                                        data-toggle="" aria-haspopup="true" aria-expanded="false">FAQ</a>
+		<!-- 
+			=============================================
+				Theme Main Menu
+			============================================== 
+			-->
+		<div class="theme-main-menu sticky-menu theme-menu-five">
+			<div class="d-flex align-items-center justify-content-center">
+				<div class="logo"><a href="index.html"><img src="images/entravel.png" alt="logo" width="200px"></a>
+				</div>
 
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link -toggle" href="contact.html" id="navbar" role="button"
-                                        data-toggle="" aria-haspopup="true" aria-expanded="false">Contact</a>
-
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link -toggle" href="blog.html" id="navbarDropdown-4" role="button"
-                                        data-toggle="" aria-haspopup="true" aria-expanded="false">Articles</a>
-
-                                </li>
-
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header End -->
-    <!-- Breadcrumb Start -->
-    <div class=" main-bg">
-        <div class="container-fluid p-0">
-            <div class="text-left iq-breadcrumb-one
-               iq-bg-over black     ">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-sm-12">
-                            <nav aria-label="breadcrumb" class="text-center iq-breadcrumb-two">
-                                <h2 class="title">
-                                    About Us </h2>
-                                <ol class="breadcrumb main-bg">
-                                    <li class="breadcrumb-item"><a href="javascript:void(0)"><i
-                                                class="fa fa-home mr-2"></i>Home</a></li>
-                                    <li class="breadcrumb-item active"> About Us</li>
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Breadcrumb End -->
-    <!-- Counter Start -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 mb-lg-0 mb-5">
-                <div class="iq-title-box iq-title-default iq-title-box-2 mb-4">
-                    <span class="iq-subtitle">Our Mission</span>
-                    <h2 class="iq-title">Empowering Software Solutions</h2>
-                    <p class="iq-title-desc">We are committed to empowering software solutions for our clients,
-                        delivering cutting-edge services and unmatched expertise.</p>
-                </div>
-                <div class="iq-list iq-two-column">
-                    <ul class="iq-list-with-icon">
-                        <li>
-                            <i class="ion ion-checkmark-round"></i> Optimize Software Performance
-                        </li>
-                        <li>
-                            <i class="ion ion-checkmark-round"></i> Seamless Data Integration
-                        </li>
-                        <li>
-                            <i class="ion ion-checkmark-round"></i> Scalable Architecture
-                        </li>
-                        <li>
-                            <i class="ion ion-checkmark-round"></i> Data Security Excellence
-                        </li>
-                        <li>
-                            <i class="ion ion-checkmark-round"></i> Strategic Development Planning
-                        </li>
-                        <li>
-                            <i class="ion ion-checkmark-round"></i> 24/7 Client Assistance
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="iq-counter text-center iq-box-shadow iq-counter-style-1">
-                            <div class="counter-content">
-                                <p class="iq-counter-info">
-                                    <span class="timer" data-to="50" data-speed="5000">50</span>
-                                    <span class="counter-after-content"></span>
-                                    <span class="counter-symbol">+</span>
-                                </p>
-                                <h5 class="counter-title-text">Software Engineers</h5>
-                            </div>
-                        </div>
-                        <div class="iq-counter text-center iq-box-shadow iq-counter-style-1">
-                            <div class="counter-content">
-                                <p class="iq-counter-info">
-                                    <span class="timer" data-to="100" data-speed="5000">100</span>
-                                    <span class="counter-after-content">k</span>
-                                    <span class="counter-symbol">+</span>
-                                </p>
-                                <h5 class="counter-title-text">Satisfied Customers</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="iq-counter text-center iq-box-shadow iq-counter-style-1">
-                            <div class="counter-content">
-                                <p class="iq-counter-info">
-                                    <span class="timer" data-to="35" data-speed="5000">35</span>
-                                    <span class="counter-after-content">m</span>
-                                    <span class="counter-symbol">+</span>
-                                </p>
-                                <h5 class="counter-title-text">Successful Projects</h5>
-                            </div>
-                        </div>
-                        <div class="iq-counter text-center iq-box-shadow iq-counter-style-1">
-                            <div class="counter-content">
-                                <p class="iq-counter-info">
-                                    <span class="timer" data-to="15" data-speed="5000">15</span>
-                                    <span class="counter-after-content">m</span>
-                                    <span class="counter-symbol">+</span>
-                                </p>
-                                <h5 class="counter-title-text">Monthly Support Requests</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </section>
+				<nav id="mega-menu-holder" class="navbar navbar-expand-lg">
+					<div class="nav-container">
+						<button class="navbar-toggler">
+							<span></span>
+						</button>
+						<div class="navbar-collapse collapse" id="navbarSupportedContent">
+							<div class="d-lg-flex justify-content-between align-items-center">
+								<ul class="navbar-nav main-side-nav font-gordita" id="one-page-nav">
+									<li class="nav-item position-static">
+										<a class="nav-link" href="index.html">HOME</a>
+									</li>
+									<li class="nav-item">
+										<a href="about.html" class="nav-link">ABOUT US</a>
+									</li>
+									<li class="nav-item">
+										<a href="faqs.html" class="nav-link">FAQ</a>
+									</li>
+									<li class="nav-item">
+										<a href="contact.html" class="nav-link">CONTACT US</a>
+									</li>
+									<li class="nav-item">
+										<a href="blog.html" class="nav-link">BLOG</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div><!-- /.theme-main-menu -->
 
 
 
-    <!-- Counter End -->
-    <!-- Service Tab Start -->
-    <section class="pt-0 iq-sahpe iq-pb-70">
-        <img src="images/others/shape1.png" class="img-fluid shape" alt="DevelopmentOnDemand">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center iq-title-box iq-title-default iq-title-box-2">
-                        <span class="iq-subtitle">Our Expertise</span>
-                        <h2 class="iq-title">Seamless Development Solutions</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="iq-tabs iq-tab-vertical-1 iq-box-shadow">
-                        <div class="row align-items-stretch">
-                            <div class="col-lg-4">
-                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="pill" href="#tabs-042" role="tab">
-                                            <div class="media">
-                                                <img src="images/tab/02-2.png" class="img-fluid"
-                                                    alt="DevelopmentOnDemand">
-                                                <div class="media-body">
-                                                    <h6 class="tab-title">Effortless Development</h6>
-                                                    <p class="mb-0 tab-title-desc">Seamlessly develop your software with
-                                                        ease.</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="pill" href="#tabs-142" role="tab">
-                                            <div class="media">
-                                                <img src="images/tab/02-2.png" class="img-fluid"
-                                                    alt="DevelopmentOnDemand">
-                                                <div class="media-body">
-                                                    <h6 class="tab-title">Robust API</h6>
-                                                    <p class="mb-0 tab-title-desc">Utilize our powerful APIs for
-                                                        efficient development management.</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="pill" href="#tabs-242" role="tab">
-                                            <div class="media">
-                                                <img src="images/tab/03-3.png" class="img-fluid"
-                                                    alt="DevelopmentOnDemand">
-                                                <div class="media-body">
-                                                    <h6 class="tab-title">Streamlined Control</h6>
-                                                    <p class="mb-0 tab-title-desc">Take full control of your development
-                                                        resources effortlessly.</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="pill" href="#tabs-342" role="tab">
-                                            <div class="media">
-                                                <img src="images/tab/04-4.png" class="img-fluid"
-                                                    alt="DevelopmentOnDemand">
-                                                <div class="media-body">
-                                                    <h6 class="tab-title">Dedicated Support</h6>
-                                                    <p class="mb-0 tab-title-desc">Our dedicated support team is here to
-                                                        assist you 24/7.</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="tab-content">
-                                    <div class="tab-pane active show" id="tabs-042" role="tabpanel">
-                                        <div>
-                                            <img class="img-fluid" src="images/tab/01.png" alt="DevelopmentOnDemand">
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" id="tabs-142" role="tabpanel">
-                                        <div>
-                                            <img class="img-fluid" src="images/tab/02.png" alt="DevelopmentOnDemand">
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" id="tabs-242" role="tabpanel">
-                                        <div>
-                                            <img class="img-fluid" src="images/tab/03.png" alt="DevelopmentOnDemand">
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" id="tabs-342" role="tabpanel">
-                                        <div>
-                                            <img class="img-fluid" src="images/tab/04.png" alt="DevelopmentOnDemand">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+		<!-- 
+			=============================================
+				Fancy Text block Twenty
+			============================================== 
+			-->
+		<div class="fancy-text-block-twenty">
+			<img src="images/shape/124.svg" alt="" class="shapes shape-one">
+			<img src="images/shape/125.svg" alt="" class="shapes shape-two">
+			<div class="container">
+				<h1 class="title font-slab">About our Analytics Journey</h1>
+				<div class="fancy-video-box-one mb-130 md-mb-70">
+					<img src="images/media/img_65.png" alt="" class="main-img">
+				</div> <!-- /.fancy-video-box-one -->
+
+				<div class="row">
+					<div class="col-lg-5" data-aos="fade-right" data-aos-duration="1200">
+						<div class="client-info font-rubik">Over <span>150,000+ data clients</span></div>
+						<div class="title-style-five">
+							<h2><span>Empowering</span><br> Businesses with Data Insights.</h2>
+						</div>
+					</div>
+					<div class="col-lg-6 ml-auto" data-aos="fade-left" data-aos-duration="1200">
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs md-mt-50">
+							<li class="nav-item">
+								<a class="nav-link font-slab active" data-toggle="tab" href="#our-story">Our Data
+									Story</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link font-slab" data-toggle="tab" href="#our-mission">Our Data Mission</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link font-slab" data-toggle="tab" href="#our-vision">Our Data Vision</a>
+							</li>
+						</ul>
+						<!-- Tab panes -->
+						<div class="tab-content mt-20">
+							<div class="tab-pane active" id="our-story">
+								<p class="font-rubik">In the realm of data analytics, we embarked on a journey that
+									transcends numbers and charts. Our story is woven with the threads of insights,
+									empowering businesses to navigate the complex landscape of information with clarity
+									and
+									precision.</p>
+								<p class="font-rubik">Every data point tells a tale, and we are here to unravel the
+									narratives
+									that drive success. Our analytics journey is fueled by a passion for uncovering
+									patterns, making sense of data, and transforming information into actionable
+									intelligence.</p>
+							</div>
+							<div class="tab-pane fade" id="our-mission">
+								<p class="font-rubik">Our mission is to provide cutting-edge data solutions that empower
+									businesses to make informed decisions and drive success in the digital age.</p>
+								<p class="font-rubik">We are dedicated to delivering high-quality analytics services
+									that
+									meet the evolving needs of our clients and contribute to their growth and
+									competitiveness.</p>
+							</div>
+							<div class="tab-pane fade" id="our-vision">
+								<p class="font-rubik">Our vision is to be a global leader in data analytics, recognized
+									for innovation, excellence, and a positive impact on businesses and society.</p>
+								<p class="font-rubik">We aspire to create a data-driven world where organizations
+									harness
+									the full potential of data to achieve unprecedented success and transform the way
+									they
+									operate.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.fancy-text-block-twenty -->
 
 
-    <!-- Icon-box End -->
-    <section class="wow fadeInUp pt-0 iq-pb-70" data-wow-duration="0.6s">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center iq-title-box iq-title-default iq-title-box-2">
-                        <div class="iq-title-icon">
-                        </div>
-                        <span class="iq-subtitle">Our Expertise</span>
-                        <h2 class="iq-title">Our Unique Advantages</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="iq-icon-box iq-icon-box-style-1">
-                        <div class="icon-box-img">
-                            <img src="images/icon-box/01.png" class="img-fluid" alt="SoftwareDev">
-                        </div>
-                        <div class="icon-box-content">
-                            <h5 class="icon-box-title"> <a href="javascript:void(0)">Global Reach</a>
-                            </h5>
-                            <p class="icon-box-desc">Our global presence ensures comprehensive coverage, enabling us to
-                                support clients worldwide with local expertise.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="iq-icon-box iq-icon-box-style-1">
-                        <div class="icon-box-img">
-                            <img src="images/icon-box/02.png" class="img-fluid" alt="SoftwareDev">
-                        </div>
-                        <div class="icon-box-content">
-                            <h5 class="icon-box-title"> <a href="javascript:void(0)">Effortless Deployment</a>
-                            </h5>
-                            <p class="icon-box-desc">Simplify software deployment with our easy-to-use one-click
-                                solutions. Install and manage applications effortlessly.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="iq-icon-box iq-icon-box-style-1">
-                        <div class="icon-box-img">
-                            <img src="images/icon-box/03.png" class="img-fluid" alt="SoftwareDev">
-                        </div>
-                        <div class="icon-box-content">
-                            <h5 class="icon-box-title"> <a href="javascript:void(0)">Total Control</a>
-                            </h5>
-                            <p class="icon-box-desc">Take full control of your resources with our intuitive tools,
-                                ensuring peak performance and flexibility for your requirements.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="iq-icon-box iq-icon-box-style-1  ">
-                        <div class="icon-box-img">
-                            <img src="images/icon-box/04.png" class="img-fluid" alt="SoftwareDev">
-                        </div>
-                        <div class="icon-box-content">
-                            <h5 class="icon-box-title"> <a href="javascript:void(0)">Upload and Manage</a>
-                            </h5>
-                            <p class="icon-box-desc">Easily upload and manage software packages, simplifying application
-                                management and enhancing your development experience.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="iq-icon-box iq-icon-box-style-1  ">
-                        <div class="icon-box-img">
-                            <img src="images/icon-box/05.png" class="img-fluid" alt="SoftwareDev">
-                        </div>
-                        <div class="icon-box-content">
-                            <h5 class="icon-box-title"> <a href="javascript:void(0)">Support for Various Platforms</a>
-                            </h5>
-                            <p class="icon-box-desc">Explore support for various platforms: Web, Mobile, and Desktop,
-                                each offering unique solutions for diverse development needs.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="iq-icon-box iq-icon-box-style-1  ">
-                        <div class="icon-box-img">
-                            <img src="images/icon-box/06.png" class="img-fluid" alt="SoftwareDev">
-                        </div>
-                        <div class="icon-box-content">
-                            <h5 class="icon-box-title"> <a href="javascript:void(0)">Flexible Commitment</a>
-                            </h5>
-                            <p class="icon-box-desc">Enjoy the flexibility of our services without being bound by
-                                lengthy commitments. Your freedom is our priority.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Service Tab End -->
-    <!-- Blog Start -->
-    <section class="pt-0 iq-pb-55">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="text-center iq-title-box iq-title-default iq-title-box-2">
-                        <span class="iq-subtitle">Development Blog</span>
-                        <h2 class="iq-title"> Latest Development Articles</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="false" data-dots="true"
-                        data-items="3" data-items-laptop="3" data-items-tab="2" data-items-mobile="1"
-                        data-items-mobile-sm="1" data-margin="30">
-                        <div class="item">
-                            <div class="iq-blog-box">
-                                <div class="iq-blog-image clearfix">
-                                    <img src="images/blog/01.png" class="img-fluid" alt="dev-blog">
-                                    <ul class="iq-blogtag">
-                                        <li><a href="javascript:void(0)">Development</a></li>
-                                    </ul>
-                                </div>
-                                <div class="iq-blog-detail">
-                                    <div class="iq-blog-meta">
-                                        <ul class="iq-postdate">
-                                            <li class="list-inline-item">
-                                                <i class="fa fa-calendar mr-2" aria-hidden="true"></i>
-                                                <span class="screen-reader-text">Posted on</span>
-                                                <a href="javascript:void(0)" rel="bookmark">
-                                                    <time class="entry-date published updated"
-                                                        datetime="2023-09-20T08:00:00+00:00">September 20, 2023</time>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="blog-details.html">
-                                            <h5 class="mb-3">Mastering Development Strategies</h5>
-                                        </a>
-                                    </div>
-                                    <p class="">Unlock the potential of development strategies and learn how they can
-                                        transform your business operations.</p>
-                                    <div class="blog-button">
-                                        <a class="iq-btn-link" href="blog-details.html">Read More<i
-                                                class="ml-2 ion-ios-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="iq-blog-box">
-                                <div class="iq-blog-image clearfix">
-                                    <img src="images/blog/02.png" class="img-fluid" alt="dev-blog">
-                                    <ul class="iq-blogtag">
-                                        <li><a href="javascript:void(0)">Technology</a></li>
-                                    </ul>
-                                </div>
-                                <div class="iq-blog-detail">
-                                    <div class="iq-blog-meta">
-                                        <ul class="iq-postdate">
-                                            <li class="list-inline-item">
-                                                <i class="fa fa-calendar mr-2" aria-hidden="true"></i>
-                                                <span class="screen-reader-text">Posted on</span>
-                                                <a href="javascript:void(0)" rel="bookmark">
-                                                    <time class="entry-date published updated"
-                                                        datetime="2023-09-21T08:00:00+00:00">September 21, 2023</time>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="blog-details.html">
-                                            <h5 class="mb-3">Optimizing Development Resources</h5>
-                                        </a>
-                                    </div>
-                                    <p class="">Discover strategies for optimizing your development resources and
-                                        maximizing cost-efficiency.</p>
-                                    <div class="blog-button">
-                                        <a class="iq-btn-link" href="blog-details.html">Read More<i
-                                                class="ml-2 ion-ios-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="iq-blog-box">
-                                <div class="iq-blog-image clearfix">
-                                    <img src="images/blog/03.png" class="img-fluid" alt="dev-blog">
-                                    <ul class="iq-blogtag">
-                                        <li><a href="javascript:void(0)">Security</a></li>
-                                    </ul>
-                                </div>
-                                <div class="iq-blog-detail">
-                                    <div class="iq-blog-meta">
-                                        <ul class="iq-postdate">
-                                            <li class="list-inline-item">
-                                                <i class="fa fa-calendar mr-2" aria-hidden="true"></i>
-                                                <span class="screen-reader-text">Posted on</span>
-                                                <a href="javascript:void(0)" rel="bookmark">
-                                                    <time class="entry-date published updated"
-                                                        datetime="2023-09-22T08:00:00+00:00">September 22, 2023</time>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="blog-details.html">
-                                            <h5 class="mb-3">Development Security Best Practices</h5>
-                                        </a>
-                                    </div>
-                                    <p class="">Learn about the best practices for ensuring the security of your
-                                        development projects.</p>
-                                    <div class="blog-button">
-                                        <a class="iq-btn-link" href="blog-details.html">Read More<i
-                                                class="ml-2 ion-ios-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+		<!--
+			=====================================================
+				Counter With Icon One
+			=====================================================
+			-->
+		<div class="counter-with-icon-one">
+			<div class="container">
+				<div class="border-top pt-50 md-pt-10">
+					<div class="row justify-content-center">
+						<div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1200">
+							<div class="counter-box-three">
+								<div class="icon"><img src="images/icon/23.svg" alt=""></div>
+								<h2 class="number"><span class="timer" data-from="0" data-to="13" data-speed="1500"
+										data-refresh-interval="5">0</span>m</h2>
+								<p class="font-rubik">Data Insights Generated</p>
+							</div> <!-- /.counter-box-three -->
+						</div>
+						<div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+							<div class="counter-box-three">
+								<div class="icon"><img src="images/icon/24.svg" alt=""></div>
+								<h2 class="number"><span class="timer" data-from="0" data-to="30000" data-speed="1200"
+										data-refresh-interval="5">0</span></h2>
+								<p class="font-rubik">Data Events Processed</p>
+							</div> <!-- /.counter-box-three -->
+						</div>
+						<div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+							<div class="counter-box-three">
+								<div class="icon"><img src="images/icon/25.svg" alt=""></div>
+								<h2 class="number"><span class="timer" data-from="0" data-to="134" data-speed="1200"
+										data-refresh-interval="5">0</span></h2>
+								<p class="font-rubik">Global Data Reach</p>
+							</div> <!-- /.counter-box-three -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.counter-with-icon-one -->
 
-    <!-- Blog End -->
-    <!-- Footer Start -->
-    <footer id="contact" class="iq-over-dark-90">
-        <div class="footer-topbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 ">
-                        <div class="widget">
-                            <div class="textwidget">
-                                <div class="row ">
-                                    <div class="col-lg-6 mb-5 mb-lg-0 text-center text-lg-left">
-                                        <h2 class="text-white">Subscribe to Our Updates</h2>
-                                    </div>
-                                    <div class="col-lg-6 mb-5 mb-lg-0 text-center text-lg-right">
-                                        <form class="mc4wp-form mc4wp-form-517" method="post">
-                                            <div class="mc4wp-form-fields">
-                                                <input type="email" name="EMAIL" placeholder="Your email address"
-                                                    required="">
-                                                <input type="submit" value="Subscribe">
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Address -->
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 ">
-                        <div class="widget">
-                            <div class="textwidget">
-                                <p>
-                                    <img style="
-                            width: 205px;
-                            height: 95px;" class="mb-4 img-fluid" src="images/veescorp.jpg" alt="yourstartup">
-                                    <br>
-                                    We are your go-to source for software development solutions.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0 ">
-                        <div class="widget">
-                            <h4 class="footer-title">Quick Links</h4>
-                            <div>
-                                <ul class="menu">
-                                    <li><a href="index.html" aria-current="page">Home</a></li>
-                                    <li><a href="about-us-1.html">About</a></li>
-                                    <li><a href="blog.html">Article</a></li>
-                                    <li><a href="contact-us-1.html">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4">
-                        <div class="widget">
-                            <h4 class="footer-title ">About</h4>
-                            <div class="menu-about">
-                                <ul id="menu-about-menu" class="menu">
-                                    <li><a href="about-us-1.html">About </a></li>
-                                    <li><a href="contact-us-1.html">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4">
-                        <div class="widget">
-                            <h4 class="footer-title ">Useful Links</h4>
-                            <div class="menu-link">
-                                <ul id="menu-link-menu" class="menu">
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="contact-us-1.html">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4">
-                        <div class="widget">
-                            <h4 class="footer-title ">Contact Us</h4>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <ul class="iq-contact">
-                                        <li>
-                                            <a><i class="fa fa-home"></i><span>234 Main Street, LA, 5421</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="mailto:support@veescorp.cloud"><i
-                                                    class="fa fa-envelope"></i><span>support@veescorp.cloud</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="tel:+1234567890"><i
-                                                    class="fa fa-phone"></i><span>+9945464798</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Address END -->
-        <div class="copyright-footer">
-            <div class="container">
-                <div class="pt-3 pb-3">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-6 col-md-12 text-lg-left text-md-center text-center">
-                            <div class="social-icons">
-                                <ul>
-                                    <li class="d-inline"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="d-inline"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li class="d-inline"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 text-lg-right text-md-center text-center">
-                            <span class="copyright">© 2023 veescorp. All Rights Reserved.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
-    <!-- Footer End -->
-    <!-- back-to-top -->
-    <div id="back-to-top">
-        <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-    </div>
-    <!-- back-to-top End -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.4.1.js"></script>
-    <!-- jQuery  for scroll me js -->
-    <script src='js/jquery-min.js'></script>
-    <!-- popper  -->
-    <script src="js/popper.min.js"></script>
-    <!--  bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Appear JavaScript -->
-    <script src="js/appear.js"></script>
-    <!-- Jquery-migrate JavaScript -->
-    <script src='js/jquery-migrate.min.js'></script>
-    <!-- Scripts JavaScript -->
-    <script src='js/scripts.js'></script>
-    <!-- countdownTimer JavaScript -->
-    <script src='js/jQuery.countdownTimer.min.js'></script>
-    <!-- Tox-progress JavaScript -->
-    <script src='js/tox-progress.min.js'></script>
-    <!-- Timeline JavaScript -->
-    <script src='js/timeline.js'></script>
-    <!-- Timeline min JavaScript -->
-    <script src='js/timeline.min.js'></script>
-    <!-- Slick JavaScript -->
-    <script src='js/slick.min.js'></script>
-    <!-- Popper JavaScript -->
-    <script src='js/popper.min.js'></script>
-    <!-- Owl.carousel JavaScript -->
-    <script src='js/owl.carousel.min.js'></script>
-    <!-- Countdown JavaScript -->
-    <script src='js/countdown.js'></script>
-    <!-- Jquery.countTo JavaScript -->
-    <script src='js/jquery.countTo.js'></script>
-    <!-- Magnific-popup JavaScript -->
-    <script src='js/jquery.magnific-popup.min.js'></script>
-    <!-- Isotope.pkgd.min JavaScript -->
-    <script src='js/isotope.pkgd.min.js'></script>
-    <!-- Wow JavaScript -->
-    <script src='js/wow.min.js'></script>
-    <!--  Custom JavaScript -->
-    <script src="js/custom.js"></script>
+
+		<!-- 
+			=============================================
+				Team Section
+			============================================== 
+			-->
+		<div class="team-section-four mt-250 md-mt-150">
+			<img src="images/shape/129.svg" alt="" class="shapes shape-one">
+			<img src="images/shape/130.svg" alt="" class="shapes shape-two">
+			<div class="container">
+				<div class="title-style-five text-center mb-90 md-mb-60">
+					<h6>Our Data Team</h6>
+					<h2>The Data Wizards behind Entravelware </h2>
+				</div>
+
+				<div class="team-wrapper">
+					<div class="row">
+						<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
+							<div class="team-member">
+								<div class="img-holder"><img src="images/media/img_66.png" alt=""></div>
+								<h6 class="name">Data Analyst One</h6>
+								<div class="position">Senior Data Scientist</div>
+							</div> <!-- /.team-member -->
+						</div>
+						<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+							<div class="team-member">
+								<div class="img-holder"><img src="images/media/img_67.png" alt=""></div>
+								<h6 class="name">Data Specialist Maria</h6>
+								<div class="position">Data Support Manager</div>
+							</div> <!-- /.team-member -->
+						</div>
+						<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+							<div class="team-member">
+								<div class="img-holder"><img src="images/media/img_68.png" alt=""></div>
+								<h6 class="name">Data Scientist Rashed</h6>
+								<div class="position">Senior Data Designer</div>
+							</div> <!-- /.team-member -->
+						</div>
+						<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="50">
+							<div class="team-member">
+								<div class="img-holder"><img src="images/media/img_69.png" alt=""></div>
+								<h6 class="name">Data Developer Jubayer</h6>
+								<div class="position">Data Developer</div>
+							</div> <!-- /.team-member -->
+						</div>
+						<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+							<div class="team-member">
+								<div class="img-holder"><img src="images/media/img_70.png" alt=""></div>
+								<h6 class="name">Data Support Sumit</h6>
+								<div class="position">Data Support Manager</div>
+							</div> <!-- /.team-member -->
+						</div>
+						<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+							<div class="team-member">
+								<div class="img-holder"><img src="images/media/img_71.png" alt=""></div>
+								<h6 class="name">Data Designer Faisal</h6>
+								<div class="position">Senior Data Designer</div>
+							</div> <!-- /.team-member -->
+						</div>
+					</div>
+					<img src="images/shape/126.svg" alt="" class="shapes shape-one">
+				</div> <!-- /.team-wrapper -->
+			</div>
+		</div>
+		<!-- /.team-section-four -->
+
+
+
+
+		<!-- 
+			=============================================
+				Fancy Text block Six
+			============================================== 
+			-->
+		<div class="fancy-text-block-six mt-250 pt-50 md-mt-130">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6" data-aos="fade-right" data-aos-duration="1200">
+						<div class="title-style-five mb-35">
+							<h6>Data Analytics Advantages</h6>
+							<h2><span>Why you should</span> choose our Analytics?</h2>
+						</div>
+
+						<!-- Accordion Style Two -->
+						<div id="accordion" class="accordion-style-two pr-5">
+							<div class="card">
+								<div class="card-header" id="headingOne">
+									<h5 class="mb-0">
+										<button class="btn btn-link">
+											Unlock Insights with Advanced Analytics.
+										</button>
+									</h5>
+								</div>
+								<div id="collapseOne" class="collapse show">
+									<div class="card-body">
+										<p>It only takes 5 minutes. Set-up is smooth & simple, with fully customizable
+											data visualization to reflect your brand.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingTwo">
+									<h5 class="mb-0">
+										<button class="btn btn-link">
+											Streamline Client Management.
+										</button>
+									</h5>
+								</div>
+								<div id="collapseTwo" class="collapse">
+									<div class="card-body">
+										<p>Effortlessly manage your clients with our user-friendly interface and fully
+											customizable data management solutions.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingThree">
+									<h5 class="mb-0">
+										<button class="btn btn-link">
+											Optimize Decision-making with Data-Driven Insights.
+										</button>
+									</h5>
+								</div>
+								<div id="collapseThree" class="collapse">
+									<div class="card-body">
+										<p>It only takes 5 minutes. Set-up is smooth & simple, with fully customizable
+											data-driven solutions to reflect your brand.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-8 m-auto" data-aos="fade-left" data-aos-duration="1200">
+						<div class="illustration-holder d-flex justify-content-end md-mt-50">
+							<img src="images/media/img_58.png" alt="">
+							<img src="images/shape/113.svg" alt="" class="shapes shape-one">
+						</div> <!-- /.illustration-holder -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.fancy-text-block-six -->
+
+
+
+		<!--
+			=====================================================
+				Feature Blog Four
+			=====================================================
+			-->
+		<div class="feature-blog-four mt-250 md-mt-200">
+			<div class="container">
+				<div class="title-style-five text-center mb-70 md-mb-50">
+					<h6>Data Insights & Articles</h6>
+					<h2>Latest insights & articles</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+						<div class="feature-article-meta">
+							<div class="img-meta"><img src="images/blog/media_32.jpg" alt=""></div>
+							<div class="post-meta">
+								<h3><a href="blog-details-v1.html">7 Ways Data Analytics is Revolutionizing
+										Businesses</a></h3>
+								<div class="author_info">Martin Jonas. <span>Data Analyst</span></div>
+							</div>
+						</div> <!-- /.feature-article-meta -->
+					</div>
+					<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+						<div class="feature-article-meta">
+							<div class="img-meta"><img src="images/blog/media_33.jpg" alt=""></div>
+							<div class="post-meta">
+								<h3><a href="blog-details-v1.html">Unlocking the Power of Data: Ticket Selling
+										Process</a></h3>
+								<div class="author_info">Eva Smith. <span>Data Strategist</span></div>
+							</div>
+						</div> <!-- /.feature-article-meta -->
+					</div>
+					<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+						<div class="feature-article-meta">
+							<div class="img-meta"><img src="images/blog/media_34.jpg" alt=""></div>
+							<div class="post-meta">
+								<h3><a href="blog-details-v1.html">Effective Data Management & Security Processes</a>
+								</h3>
+								<div class="author_info">Alex Turner. <span>Data Security Expert</span></div>
+							</div>
+						</div> <!-- /.feature-article-meta -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.feature-blog-four -->
+
+
+
+
+		<!--
+			=====================================================
+				Fancy Short Banner Five
+			=====================================================
+			-->
+		<div class="fancy-short-banner-five pt-150 pb-150 md-pt-100 md-pb-100">
+			<div class="container">
+				<div class="title-style-five text-center">
+					<h2><span>Unlock Insights</span></h2>
+				</div>
+				<div class="row">
+					<div class="col-xl-7 col-lg-8 col-md-9 m-auto">
+						<p class="font-rubik sub-heading">Empower your analytics journey with our platform - & embraced
+							by every
+							data enthusiast.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-7 col-lg-8 col-md-10 m-auto">
+						<form action="#">
+							<input type="text" placeholder="Your Email Address">
+							<button>Get Started</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.fancy-short-banner-five -->
+
+
+
+		<!--
+			=====================================================
+				Footer Style Four
+			=====================================================
+			-->
+		<footer class="theme-footer-one pt-130 md-pt-80">
+			<div class="top-footer">
+				<div class="container">
+					<div class="row justify-content-end">
+						<div class="col-lg-3 col-md-12 footer-about-widget" data-aos="fade-up" data-aos-duration="1200">
+							<a href="index.html" class="logo"><img src="images/entravel.png" alt=""></a>
+						</div> <!-- /.about-widget -->
+						<div class="col-lg-3 col-md-4 footer-list" data-aos="fade-up" data-aos-duration="1200"
+							data-aos-delay="50">
+							<h5 class="footer-title">Analytics Services</h5>
+							<ul>
+								<li><a href="about.html">About</a></li>
+								<li><a href="contact.html"> Contact</a></li>
+								<li><a href="blog.html">Blog</a></li>
+							</ul>
+						</div> <!-- /.footer-list -->
+						<div class="col-lg-3 col-md-4 footer-list" data-aos="fade-up" data-aos-duration="1200"
+							data-aos-delay="100">
+							<h5 class="footer-title">About our Data Team</h5>
+							<ul>
+								<li><a href="about.html">About us</a></li>
+								<li><a href="index.html">Entravelware</a></li>
+								<li><a href="faqs.html">FAQ</a></li>
+							</ul>
+						</div> <!-- /.footer-list -->
+						<div class="col-lg-3 col-md-4 address-list" data-aos="fade-up" data-aos-duration="1200"
+							data-aos-delay="150">
+							<h5 class="footer-title">Contact us</h5>
+							<ul>
+								<li><a href="mailto:support@entravelware.service">support@entravelware.services</a></li>
+								<li><a href="tel:+761 412 3224" class="mobile-num">+761 412 3224</a></li>
+							</ul>
+						</div> <!-- /.footer-list -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</div> <!-- /.top-footer -->
+
+			<div class="container">
+				<div class="bottom-footer-content">
+					<div class="d-sm-flex align-items-center justify-content-between">
+						<ul class="order-sm-last" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="100"
+							data-aos-anchor=".theme-footer-one">
+							<li><a href="#">Data Privacy</a></li>
+							<li><a href="#">Security Measures</a></li>
+							<li><a href="#">Terms of Use</a></li>
+						</ul>
+						<p class="order-sm-first" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100"
+							data-aos-anchor=".theme-footer-one">Copyright @2022 Entravelware Inc.</p>
+					</div>
+				</div> <!-- /.bottom-footer -->
+			</div>
+		</footer>
+		<!-- /.theme-footer-four -->
+
+
+		<!-- Scroll Top Button -->
+		<button class="scroll-top">
+			<i class="fa fa-angle-up" aria-hidden="true"></i>
+		</button>
+
+		<!-- Optional JavaScript _____________________________  -->
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<!-- jQuery -->
+		<script src="vendor/jquery.min.js"></script>
+		<!-- Popper js -->
+		<script src="vendor/popper.js/popper.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<!-- menu  -->
+		<script src="vendor/mega-menu/assets/js/custom.js"></script>
+		<!-- AOS js -->
+		<script src="vendor/aos-next/dist/aos.js"></script>
+		<!-- js count to -->
+		<script src="vendor/jquery.appear.js"></script>
+		<script src="vendor/jquery.countTo.js"></script>
+		<!-- Slick Slider -->
+		<script src="vendor/slick/slick.min.js"></script>
+		<!-- Fancybox -->
+		<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+
+		<!-- Theme js -->
+		<script src="js/theme.js"></script>
+	</div> <!-- /.main-page-wrapper -->
 </body>
 
 </html>
