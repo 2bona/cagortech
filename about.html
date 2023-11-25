@@ -1,729 +1,427 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planedome || Cloud Application Development</title>
 
-    <!-- bootstrap grid css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
-    <!-- font awesome css -->
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
-    <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css">
-    <!-- itsulu css -->
-    <link rel="stylesheet" href="css/style.css">
-    <title>Riversdome || Cloud Assured Managed Services</title>
-    <!-- itsulu favicon -->
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon.png">
-    <link rel="manifest" href="favicon/site.webmanifest.txt">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <!-- Style CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/libs/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-
-    <!-- wrapper -->
-    <div class="mil-wrapper">
-        <!-- top bar -->
-        <div class="mil-top-position mil-fixed">
-            <div class="mil-top-panel">
-                <!-- mil-top-panel-transparent -->
-                <div class="container">
-                    <a href="index.html" class="mil-logo" style="width: 200px"></a>
-                    <div class="mil-navigation">
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a href="about.html">About</a>
-                                </li>
-                                <li>
-                                    <a href="faq.html">FAQ</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact</a>
-                                </li>
-                                <li><a href="blog.html">Blog</a></li>
-                            </ul>
-                        </nav>
-
-                    </div>
-                    <!-- mobile menu button -->
-                    <div class="mil-menu-btn">
-                        <span></span>
-                    </div>
-                    <!-- mobile menu button end -->
-                </div>
-            </div>
+    <div id="wrapper">
+        <div id="preload" class="preload">
+            <div class="spin"></div>
         </div>
-        <!-- top bar end -->
-
-        <!-- banner -->
-        <div class="mil-banner-sm mil-deep-bg">
-            <img src="img/deco/map.png" alt="Cloud Background" class="mil-background-image">
-            <div class="mil-deco mil-deco-accent" style="top: 47%; right: 10%; transform: rotate(90deg)"></div>
-            <div class="mil-banner-content">
-                <div class="container mil-relative">
-                    <ul class="mil-breadcrumbs mil-mb-30">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About CloudGuard</a></li>
-                    </ul>
-                    <h2 class="mil-uppercase">Cloud-Enabled Enterprise Solutions</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- banner end -->
-
-        <!-- call to action -->
-        <section class="mil-p-120-60">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12 col-xl-6">
-
-                        <h4 class="mil-mb-60">Enhance your business with <span class="mil-accent">Cloud Assured Managed
-                                Services</span>, ensuring security and reliability for your digital endeavors.</h4>
-
-                    </div>
-                    <div class="col-lg-12 col-xl-6">
-
-                        <div class="mil-adaptive-right">
-                            <a href="contact.html" class="mil-button mil-border mil-mr-15 mil-mb-30"><span>Consult with
-                                    a
-                                    Specialist</span></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- call to action end -->
-
-        <!-- about -->
-        <section class="mil-deep-bg mil-p-120-60">
-            <div class="mil-deco" style="top: 0; left: 35%;"></div>
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-5 mil-mb-60">
-
-                        <div class="mil-circle-illustration">
-                            <div class="mil-circle-bg"></div>
-                            <div class="mil-image-frame">
-                                <img src="img/faces/t3.png" alt="Company Logo">
+        <!-- BEGIN SITE HEADER -->
+        <header id="header" class="site-header">
+            <div class="container-fluid">
+                <div class="row flex-align-c inner">
+                    <div class="col-lg-3 col-6">
+                        <div class="header-left flex flex-align-c">
+                            <div class="canvas-menu">
+                                <div class="icon">
+                                    <a href="#">
+                                        <svg width="30px" height="14px" viewBox="0 0 30 14" version="1.1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g transform="translate(-50.000000, -33.000000)" fill="#111111">
+                                                    <g id="off-menu" transform="translate(50.000000, 28.000000)">
+                                                        <g id="icon-menu" transform="translate(0.000000, 5.000000)">
+                                                            <rect id="Rectangle-1" x="0" y="0" width="30" height="3"
+                                                                rx="1.5"></rect>
+                                                            <rect id="Rectangle-2" x="0" y="11" width="20" height="3"
+                                                                rx="1.5"></rect>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="./assets/planedome.png" alt="logo" width="180px">
+                                </a>
                             </div>
                         </div>
-
                     </div>
-                    <div class="col-lg-6">
-
-                        <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Cloud Assured Managed Services</span>
-                        <h2 class="mil-mb-50">Empowering Your <br><span class="mil-accent">Digital Transformation</span>
-                            in
-                            the Modern<br> Cloud Era.</h2>
-
-                        <p class="mil-mb-50">Experience peace of mind as we manage and secure your digital assets in the
-                            cloud.
-                            Our services optimize resources, enhance data privacy, and maximize overall cloud
-                            performance.
-                        </p>
-
-                        <div class="row align-items-end">
-
-                            <div class="col-xl-7">
-
-                                <ul class="mil-check-icon-list mil-mb-60">
-                                    <li>
-                                        <img src="img/icons/sm/12.svg" alt="Security Icon">
-                                        <span class="mil-dark">Ensuring Robust Cloud Security Measures.</span>
+                    <div class="col-lg-6 col-0 text-center">
+                        <div class="header-center">
+                            <div class="main-menu">
+                                <div class="menu-action">
+                                    <span class="item menu-back"><i class="las la-arrow-left"></i></span>
+                                    <span class="item menu-close"><i class="las la-times"></i></span>
+                                </div>
+                                <ul>
+                                    <li class="">
+                                        <a href="index.html">Home</a>
                                     </li>
-                                    <li>
-                                        <img src="img/icons/sm/12.svg" alt="Optimization Icon">
-                                        <span class="mil-dark">Optimizing Cloud Resources for Efficiency.</span>
+                                    <li class="">
+                                        <a href="about.html">About Us</a>
                                     </li>
-                                    <li>
-                                        <img src="img/icons/sm/12.svg" alt="Privacy Icon">
-                                        <span class="mil-dark">Enhancing Data Privacy and Confidentiality.</span>
+                                    <li class="">
+                                        <a href="our-team.html">Our Team</a>
                                     </li>
-                                    <li>
-                                        <img src="img/icons/sm/12.svg" alt="Performance Icon">
-                                        <span class="mil-dark">Maximizing Cloud Performance for Seamless
-                                            Operations.</span>
+                                    <li class="">
+                                        <a href="contact.html">Contact Us</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="blog.html">Blog</a>
                                     </li>
                                 </ul>
-
                             </div>
-                            <div class="col-xl-5">
-
-                                <a class="mil-post-sm mil-mb-60">
-                                    <div class="mil-cover-frame"><img src="img/faces/1.jpg" alt="Team Member">
-                                    </div>
-                                    <div class="mil-description">
-                                        <h4 class="mil-font-3 mil-accent">John Cloudsworth</h4>
-                                        <p class="mil-text-sm">CTO & Co-Founder</p>
-                                    </div>
-                                </a>
-
-                            </div>
-
                         </div>
-
                     </div>
                 </div>
             </div>
-        </section>
+        </header>
+        <!-- END SITE HEADER -->
 
-        <!-- about end -->
-
-        <!-- counters -->
-        <section class="mil-p-120-60">
-            <div class="mil-deco" style="top: 0; left: 25%;"></div>
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-lg-5">
-                        <div class="mil-h1">8<span class="mil-accent">+</span></div>
-                        <h6 class="mil-mb-60">Years of Cloud Excellence</h6>
-
-                        <h2 class="mil-mb-60">Empowering Your Success with Cutting-Edge Cloud Services</h2>
+        <!-- BEGIN SITE MAIN -->
+        <main id="main" class="site-main">
+            <div class="site-content pb0">
+                <section class="section-banner">
+                    <div class="container">
+                        <div class="row flex-align-c">
+                            <div class="col-lg-6">
+                                <div class="content pdr80">
+                                    <div class="heading">
+                                        <div class="heading-sub">About Planedome</div>
+                                        <h2 class="heading-title">We empower businesses in the cloud with innovative
+                                            solutions.</h2>
+                                    </div>
+                                    <div class="button-wrap">
+                                        <a href="contact.html" class="button fullfield">Get in touch</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="image pdl80">
+                                    <img src="assets/images/banner-image-05.png" alt="Cloud Banner">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-6">
+                </section>
 
-                        <h3 class="mil-mb-60">Drive <span class="mil-accent">Innovation</span> with World-Class Cloud
-                            Solutions. We'll Align You with a Dedicated <span class="mil-accent">Remote
-                                Technology</span>
-                            Team.</h3>
+                <section class="section-text spdt">
+                    <div class="container">
+                        <div class="row flex-align-c">
+                            <div class="col-lg-6">
+                                <div class="text-left pdr80">
+                                    <h2>Our Mission in Cloud Application Development</h2>
+                                    <p>At our core, we strive to revolutionize cloud application development. From
+                                        concept to
+                                        deployment,
+                                        we are dedicated to delivering scalable, secure, and innovative solutions that
+                                        propel businesses
+                                        forward.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-right pdr80">
+                                    <p>Embracing the latest cloud technologies, our mission is to empower businesses
+                                        with cloud-native
+                                        applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
+                <div class="section spdtb">
+                    <div class="container">
+                        <div class="block-counter layout-02">
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="counter-box">
+                                        <div class="number"><span class="counter">2018</span></div>
+                                        <div class="title">Founding Year</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="counter-box">
+                                        <div class="number"><span class="counter">60</span><span class="suffix">+</span>
+                                        </div>
+                                        <div class="title">Cloud Projects</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="counter-box">
+                                        <div class="number"><span class="counter">10</span><span class="suffix">+</span>
+                                        </div>
+                                        <div class="title">Cloud Awards</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="counter-box">
+                                        <div class="number"><span class="counter">50</span><span class="suffix">+</span>
+                                        </div>
+                                        <div class="title">Team Members</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block-video">
+                    <div class="container">
+                        <div class="popup-wrapper ratio" style="--bs-aspect-ratio: 50%">
+                            <img src="assets/images/our-team.jpeg" alt="Popup Video">
+                        </div>
+                    </div>
+                </div>
+                <section class="section-team spdtb">
+                    <div class="container">
+                        <div class="heading align-center">
+                            <h2 class="heading-title">Meet our Cloud Development Team</h2>
+                            <p>Our skilled professionals make the difference</p>
+                        </div>
+                        <div class="block-team layout-01">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="member-box align-center">
+                                        <div class="inner">
+                                            <div class="member-avatar">
+                                                <img src="assets/images/mem-1.png" alt="Cloud Dev Team Member">
+                                            </div>
+                                            <div class="member-content">
+                                                <h4 class="name">Stéphane Gibert</h4>
+                                                <div class="position">Cloud Solutions Architect</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="member-box align-center">
+                                        <div class="inner">
+                                            <div class="member-avatar">
+                                                <img src="assets/images/mem-2.png" alt="Cloud Dev Team Member">
+                                            </div>
+                                            <div class="member-content">
+                                                <h4 class="name">Miriam Jesus</h4>
+                                                <div class="position">Cloud UX/UI Designer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="member-box align-center">
+                                        <div class="inner">
+                                            <div class="member-avatar">
+                                                <img src="assets/images/mem-3.png" alt="Cloud Dev Team Member">
+                                            </div>
+                                            <div class="member-content">
+                                                <h4 class="name">John Doe</h4>
+                                                <div class="position">Cloud Marketing Specialist</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-partner background-grey spdtb">
+                    <div class="container">
+                        <div class="heading align-center">
+                            <h2 class="heading-title">Strategic Collaborators</h2>
+                            <div class="heading-desc">We’re fortunate to have partnered with some of the <br> leading
+                                entities in the cloud
+                                industry.</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-6">
+                            <div class="partner-box">
+                                <img src="assets/images/client-01.webp" alt="Partner">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="partner-box">
+                                <img src="assets/images/client-02.webp" alt="Partner">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="partner-box">
+                                <img src="assets/images/client-03.webp" alt="Partner">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="partner-box">
+                                <img src="assets/images/client-04.webp" alt="Partner">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="partner-box">
+                                <img src="assets/images/client-05.png" alt="Partner">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="partner-box">
+                                <img src="assets/images/client-06.webp" alt="Partner">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </section>
+            <section class="section-banner background-navy layout-02"
+                style="background-image: url('assets/images/banner-image-02.jpg');">
+                <div class="container">
+                    <div class="inner">
                         <div class="row">
                             <div class="col-lg-6">
-
-                                <h6 class="mil-mb-30"><span class="mil-accent">16+</span>&nbsp; Cloud Software
-                                    Development</h6>
-
-                                <div class="mil-divider mil-divider-left mil-mb-60"></div>
-
-                            </div>
-                            <div class="col-lg-6">
-
-                                <h6 class="mil-mb-30"><span class="mil-accent">3+</span>&nbsp; Years of Client
-                                    Engagement</h6>
-
-                                <div class="mil-divider mil-divider-left mil-mb-60"></div>
-
-                            </div>
-                            <div class="col-lg-6">
-
-                                <h6 class="mil-mb-30"><span class="mil-accent">360+</span>&nbsp; Cloud App Development
-                                </h6>
-
-                                <div class="mil-divider mil-divider-left mil-mb-60"></div>
-
-                            </div>
-                            <div class="col-lg-6">
-
-                                <h6 class="mil-mb-30"><span class="mil-accent">520+</span>&nbsp; Cloud Web Development
-                                </h6>
-
-                                <div class="mil-divider mil-divider-left mil-mb-60"></div>
-
+                                <div class="content devider-right">
+                                    <div class="heading heading-alway-white">
+                                        <div class="heading-sub">Innovate with us</div>
+                                        <h2 class="heading-title">Empowering Your Cloud Solutions!</h2>
+                                    </div>
+                                    <div class="button-wrap">
+                                        <a href="contact.html" class="button borderline-white">Get Started</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- counters end -->
+    </div><!-- SITE CONTENT -->
+    </main>
+    <!-- END SITE MAIN -->
 
-        <div class="container">
-            <div class="mil-divider"></div>
-        </div>
-
-        <!-- partners -->
-        <div class="mil-partners mil-p-120-90">
+    <!-- BEGIN SITE FOOTER -->
+    <footer id="footer" class="footer">
+        <div class="footer-top">
             <div class="container">
-                <div class="mil-partners-frame">
-                    <a href="#."><img src="img/partners/1.png" alt="partner"></a>
-                    <a href="#."><img src="img/partners/2.png" alt="partner"></a>
-                    <a href="#."><img src="img/partners/3.png" alt="partner"></a>
-                    <a href="#."><img src="img/partners/4.png" alt="partner"></a>
-                    <a href="#."><img src="img/partners/5.png" alt="partner"></a>
-                    <a href="#."><img src="img/partners/6.png" alt="partner"></a>
-                </div>
-            </div>
-        </div>
-        <!-- partners end -->
-
-        <!-- about -->
-        <section class="mil-deep-bg mil-p-120-60">
-            <div class="mil-deco" style="top: 0; right: 15%;"></div>
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-5 mil-mb-60">
-
-                        <div class="mil-circle-illustration">
-                            <div class="mil-circle-bg"></div>
-                            <div class="mil-image-frame">
-                                <img src="img/faces/t2.png" alt="Cloud Icon">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-6 mil-mb-60">
-
-                        <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Cloud Assured Services</span>
-                        <h2 class="mil-mb-50">Empowering Your Digital Journey</h2>
-
-                        <p class="mil-mb-50">As a leading provider of cloud-assured managed services, we specialize in
-                            delivering cutting-edge solutions that drive digital transformation. Our commitment to
-                            excellence
-                            ensures your success in the dynamic landscape of technology.</p>
-
-                        <ul class="mil-simple-list">
-                            <li>Accelerate innovation in the cloud.</li>
-                            <li>With world-class tech teams dedicated to your success.</li>
-                            <li>Optimize your business with our comprehensive service offerings.</li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- about end -->
-
-        <!-- features -->
-        <section class="mil-p-120-120">
-            <div class="container">
-
-                <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Explore Our Cloud Services</span>
-                <h2 class="mil-mb-120">Why Choose Our Cloud Solutions</h2>
-
-                <div class="mil-divider"></div>
-                <div class="mil-line-icon-box">
-                    <div class="row align-items-center">
-                        <div class="col-xl-2">
-
-                            <div class="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                                <img src="img/icons/md/3.svg" alt="Expertise Icon">
-                            </div>
-
-                        </div>
-                        <div class="col-xl-4">
-
-                            <h4 class="mil-mb-30">Top Cloud Expertise</h4>
-
-                        </div>
-                        <div class="col-xl-6">
-
-                            <p class="mil-box-text mil-mb-30">Experience unparalleled cloud expertise to drive your
-                                business
-                                forward. Our team ensures top-notch solutions, providing comprehensive support for your
-                                cloud
-                                journey.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="mil-divider"></div>
-                <div class="mil-line-icon-box">
-                    <div class="row align-items-center">
-                        <div class="col-xl-2">
-
-                            <div class="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                                <img src="img/icons/md/1.svg" alt="Quality Management Icon">
-                            </div>
-
-                        </div>
-                        <div class="col-xl-4">
-
-                            <h4 class="mil-mb-30">Robust Quality Management</h4>
-
-                        </div>
-                        <div class="col-xl-6">
-
-                            <p class="mil-box-text mil-mb-30">Ensure the highest standards with our robust quality
-                                management
-                                processes. We prioritize quality, delivering solutions that meet and exceed your cloud
-                                expectations.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="mil-divider"></div>
-                <div class="mil-line-icon-box">
-                    <div class="row align-items-center">
-                        <div class="col-xl-2">
-
-                            <div class="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                                <img src="img/icons/md/6.svg" alt="Flexibility Icon">
-                            </div>
-
-                        </div>
-                        <div class="col-xl-4">
-
-                            <h4 class="mil-mb-30">Utmost Cloud Flexibility</h4>
-
-                        </div>
-                        <div class="col-xl-6">
-
-                            <p class="mil-box-text mil-mb-30">Embrace the power of cloud flexibility. Our solutions
-                                adapt to
-                                your unique requirements, providing scalable and customizable cloud services tailored to
-                                your
-                                needs.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="mil-divider"></div>
-                <div class="mil-line-icon-box">
-                    <div class="row align-items-center">
-                        <div class="col-xl-2">
-
-                            <div class="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                                <img src="img/icons/md/2.svg" alt="Agility Icon">
-                            </div>
-
-                        </div>
-                        <div class="col-xl-4">
-
-                            <h4 class="mil-mb-30">Agile Cloud Solutions</h4>
-
-                        </div>
-                        <div class="col-xl-6">
-
-                            <p class="mil-box-text mil-mb-30">Experience the agility of our cloud solutions. We provide
-                                seamless integration and rapid deployment, ensuring your business stays agile in the
-                                dynamic
-                                cloud environment.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="mil-divider"></div>
-                <div class="mil-line-icon-box">
-                    <div class="row align-items-center">
-                        <div class="col-xl-2">
-
-                            <div class="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                                <img src="img/icons/md/4.svg" alt="Innovation Icon">
-                            </div>
-
-                        </div>
-                        <div class="col-xl-4">
-
-                            <h4 class="mil-mb-30">Continuous Innovation</h4>
-
-                        </div>
-                        <div class="col-xl-6">
-
-                            <p class="mil-box-text mil-mb-30">Drive innovation with our cloud solutions. We foster
-                                continuous
-                                improvement, ensuring your business stays at the forefront of technological advancements
-                                in the
-                                cloud.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="mil-divider"></div>
-            </div>
-        </section>
-
-        <!-- features end -->
-
-        <!-- features -->
-        <section class="mil-deep-bg mil-p-120-60">
-            <div class="mil-deco" style="top: 0; right: 25%;"></div>
-            <div class="container">
-                <span class="mil-suptitle mil-suptitle-2 mil-mb-30">For Enterprise Solutions</span>
-                <h2 class="mil-mb-120">Embracing <span class="mil-accent">Innovative</span> Values</h2>
-
-                <div class="row">
-                    <div class="col-md-6 col-xl-4">
-
-                        <div class="mil-icon-box-2 mil-mb-60">
-                            <div class="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                                <img src="img/icons/md/6.svg" alt="Innovative Icon">
-                            </div>
-                            <div class="mil-box-text">
-                                <h4 class="mil-mb-30">Innovation at Core</h4>
-                                <p class="mil-box-text">Explore innovative solutions crafted to elevate your business.
-                                    Our
-                                    dedicated team is committed to bringing you cutting-edge technology and ideas that
-                                    drive
-                                    success.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6 col-xl-4">
-
-                        <div class="mil-icon-box-2 mil-mb-60">
-                            <div class="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                                <img src="img/icons/md/10.svg" alt="Strategic Icon">
-                            </div>
-                            <div class="mil-box-text">
-                                <h4 class="mil-mb-30">Strategic Partnerships</h4>
-                                <p class="mil-box-text">Deep dive into strategic solutions tailored to meet your unique
-                                    business needs. We build lasting partnerships that empower your organization to
-                                    thrive in
-                                    the ever-evolving digital landscape.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6 col-xl-4">
-
-                        <div class="mil-icon-box-2 mil-mb-60">
-                            <div class="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                                <img src="img/icons/md/2.svg" alt="Collaboration Icon">
-                            </div>
-                            <div class="mil-box-text">
-                                <h4 class="mil-mb-30">Collaborative Spirit</h4>
-                                <p class="mil-box-text">Take advantage of collaborative approaches that prioritize your
-                                    success. Our team works hand in hand with yours to deliver solutions that align with
-                                    your
-                                    goals and aspirations.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6 col-xl-4">
-
-                        <div class="mil-icon-box-2 mil-mb-60">
-                            <div class="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                                <img src="img/icons/md/4.svg" alt="Excellence Icon">
-                            </div>
-                            <div class="mil-box-text">
-                                <h4 class="mil-mb-30">Commitment to Excellence</h4>
-                                <p class="mil-box-text">Embrace a culture of excellence in every aspect of our services.
-                                    Committed to delivering solutions of the highest quality, we strive for excellence
-                                    in
-                                    execution and customer satisfaction.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6 col-xl-4">
-
-                        <div class="mil-icon-box-2 mil-mb-60">
-                            <div class="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                                <img src="img/icons/md/5.svg" alt="Innovation Drive Icon">
-                            </div>
-                            <div class="mil-box-text">
-                                <h4 class="mil-mb-30">Driving Innovation</h4>
-                                <p class="mil-box-text">Believe in the power of innovation to shape the future of your
-                                    enterprise. We are dedicated to driving innovation across all facets of your
-                                    business,
-                                    ensuring you stay ahead of the curve.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6 col-xl-4">
-
-                        <div class="mil-icon-box-2 mil-mb-60">
-                            <div class="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                                <img src="img/icons/md/3.svg" alt="Unity Icon">
-                            </div>
-                            <div class="mil-box-text">
-                                <h4 class="mil-mb-30">Unified Approach</h4>
-                                <p class="mil-box-text">Foster a sense of unity by saying "we" in every endeavor. Our
-                                    team
-                                    believes in a unified approach to problem-solving, working together with you to
-                                    achieve
-                                    shared success.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- features end -->
-
-        <!-- contact -->
-        <section class="mil-contact mil-gradient-bg mil-p-120-0">
-            <div class="mil-deco mil-deco-accent" style="top: 0; right: 10%;"></div>
-            <div class="container">
-                <h2 class="mil-light mil-mb-90">Get in Touch with <span class="mil-accent">Us</span></h2>
-                <form>
+                <div class="inner">
                     <div class="row">
-                        <div class="col-lg-6">
-
-                            <div class="mil-input-frame mil-mb-30">
-                                <label><span class="mil-light">Your Name</span><span
-                                        class="mil-accent">Required</span></label>
-                                <input type="text" placeholder="Enter Your Name Here">
-                            </div>
-                            <div class="mil-input-frame mil-mb-30">
-                                <label><span class="mil-light">Your Email Address</span><span
-                                        class="mil-accent">Required</span></label>
-                                <input type="email" id="email" placeholder="Your Email">
-                            </div>
-                            <div class="mil-input-frame mil-mb-60">
-                                <label><span class="mil-light">Your Phone</span><span
-                                        class="mil-light-soft">Optional</span></label>
-                                <input type="number" placeholder="Your Phone">
-                            </div>
-                            <div class="mil-attach-frame mil-mb-60">
-                                <i class="fas fa-paperclip"></i>
-                                <label class="mil-custom-file-input">
-                                    <span>Attach Your File</span>
-                                    <input type="file" id="mil-file-input">
-                                </label>
-                                <p class="mil-text-sm mil-light-soft">Up to 20MB</p>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-6">
-
-                            <div class="mil-input-frame mil-mb-30">
-                                <label><span class="mil-light">Your Message</span><span
-                                        class="mil-accent">Required</span></label>
-                                <textarea placeholder="Enter Your Message"></textarea>
-                            </div>
-                            <p class="mil-text-sm mil-light-soft mil-mb-15">We will handle your information with care in
-                                accordance with our Privacy Policy.</p>
-
-                            <div class="mil-checkbox-frame mil-mb-60">
-                                <input class="mil-checkbox" id="checkbox-1" type="checkbox" value="value">
-                                <label for="checkbox-1" class="mil-text-sm mil-light">I would like to receive news and
-                                    updates
-                                    about your <a href="#." class="mil-accent">events and services</a></label>
-                            </div>
-
-                        </div>
-                        <div class="col-12">
-
-                            <button class="mil-button mil-accent-bg mil-fw"><span>Send Message Now</span></button>
-
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-
-        <!-- contact end -->
-
-        <!-- footer -->
-        <footer class="mil-dark-bg">
-            <img src="img/deco/map.png" alt="background" class="mil-footer-bg">
-            <div class="container">
-                <div class="mil-footer-content mil-p-120-90">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-xl-4 mil-mb-30">
-
-                            <img src="img/rivers-2.png" alt="" class="mil-logo mil-mb-30" style="width: 140px">
-
-                            <p class="mil-light-soft mil-mb-30">Empowering businesses with cutting-edge cloud solutions
-                                and
-                                managed services. Let's elevate your digital journey together.</p>
-
-                        </div>
-                        <div class="col-xl-7 mil-mt-60-adapt">
-
-                            <div class="row">
-                                <div class="col-lg-7 mil-mb-30">
-
-                                    <h3 class="mil-light mil-up-font mil-mb-30">Experience the <span
-                                            class="mil-accent">CloudAssure</span><br>Advantage</h3>
-                                    <p class="mil-light-soft">Transform your business with innovative cloud solutions
-                                        and
-                                        reliable managed services. Unleash the full potential of your digital landscape.
-                                    </p>
-
+                        <div class="col-lg-3">
+                            <div class="footer-item footer-about">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="./assets/planedome.png" alt="logo">
+                                    </a>
                                 </div>
-                                <div class="col-lg-5 mil-mb-30">
-
-                                    <form>
-
-                                        <input class="mil-rounded-input mil-text-center mil-mb-5" type="text"
-                                            placeholder="Your email address">
-                                        <button class="mil-button mil-accent-bg mil-fw"><span>Subscribe
-                                                Now</span></button>
-
-                                    </form>
-
-                                </div>
+                                <p>An innovative cloud development startup, offering solutions for businesses, SaaS,
+                                    and IT
+                                    services.</p>
                             </div>
-
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="footer-item footer-menu">
+                                <h6>Company</h6>
+                                <ul>
+                                    <li><a href="about.html" title="About us">About us</a></li>
+                                    <li><a href="blog.html" title="Blog">Blog</a></li>
+                                    <li><a href="our-team.html" title="Careers">Our Team</a></li>
+                                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="footer-item footer-menu">
+                                <h6>Resources</h6>
+                                <ul>
+                                    <li><a href="#." title="Downloads">Downloads</a></li>
+                                    <li><a href="#." title="Help Center">Help Center</a></li>
+                                    <li><a href="#." title="Partners">Partners</a></li>
+                                    <li><a href="#." title="Press Kit">Press Kit</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-item footer-newsletter">
+                                <h6>Newsletter</h6>
+                                <p>Subscribe to our newsletter and stay up to date with the latest developments in
+                                    cloud
+                                    technology.</p>
+                                <form action="#" class="newsletter">
+                                    <div class="field-input">
+                                        <input type="email" value="" placeholder="Email address">
+                                    </div>
+                                    <div class="field-submit">
+                                        <button>Subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="mil-divider mil-light"></div>
-
-                <div class="mil-footer-links">
-                    <ul class="mil-social mil-light">
-
-                    </ul>
-                    <ul class="mil-additional-links mil-light">
-                        <li><a href="#.">Terms & Conditions</a></li>
-                        <li><a href="#.">Privacy Policy</a></li>
-                        <li><a href="#.">Sitemap</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="mil-footer-bottom">
-                <div class="container">
-                    <p class="mil-text-sm mil-light">© Riversdome 2023.</p>
-                    <p class="mil-text-sm mil-light">All Rights Reserved.</p>
-                </div>
-            </div>
-        </footer>
-
-        <!-- footer end -->
-    </div>
-    <!-- wrapper end -->
-
-    <!-- jQuery js -->
-    <script src="js/plugins/jquery.min.js"></script>
-    <!-- swiper js -->
-    <script src="js/plugins/swiper.min.js"></script>
-    <!-- itsulu js -->
-    <script src="js/main.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125314689-11"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-125314689-11');
-    </script>
-
-    <!-- bslthemes.com buttons html begin -->
-    <div class="bsl-popup" data-theme="itsulu" data-category="html">
-        <div class="bsl-popup__buttons"></div>
-        <div class="bsl-popup__content bsl-popup__content-related">
-            <div class="bsl-popup__menu"></div>
-            <div class="bsl-popup__tabs">
-                <div class="bsl-popup__tab bsl-popup__tab-demo"></div>
-                <div class="bsl-popup__tab bsl-popup__tab-all"></div>
-                <div class="bsl-popup__tab bsl-popup__tab-related"></div>
-                <div class="bsl-popup__tab bsl-popup__tab-version"></div>
             </div>
         </div>
-        <div class="bsl-popup__content bsl-popup__content-help"></div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner flex flex-content-sb flex-align-c">
+                    <div class="copyright">© 2023 Planedome. All rights reserved</div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="privacy-policy.html" title="Terms">Terms</a></li>
+                            <li><a href="privacy-policy.html" title="Privacy Policy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END SITE FOOTER -->
+
+
+    <!-- BEGIN BACK TO TOP -->
+    <a href="#" id="backtotop" class="backtotop">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M5.52344 18.5234C5.3151 18.3151 5.3151 18.0938 5.52344 17.8594L13.7266 9.69531C13.9349 9.46094 14.1432 9.46094 14.3516 9.69531L22.5547 17.8594C22.763 18.0938 22.763 18.3151 22.5547 18.5234L21.7734 19.3047C21.5651 19.5391 21.3438 19.5391 21.1094 19.3047L14.0391 12.2344L6.96875 19.3047C6.73438 19.5391 6.51302 19.5391 6.30469 19.3047L5.52344 18.5234Z"
+                fill="#ffffff"></path>
+        </svg>
+    </a>
+    <!-- END BACK TO TOP -->
+
+
+
+    <!-- BEGIN POPUP -->
+    <div id="popup-wrap" class="popup-wrap popup-video">
+        <div class="overlay"></div>
+        <span class="close">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M15.3672 14.5L20.2109 19.3438C20.3411 19.474 20.3411 19.6172 20.2109 19.7734L19.3125 20.6719C19.1562 20.8021 19.013 20.8021 18.8828 20.6719L18.0625 19.8125L14.0391 15.8281L9.19531 20.6719C9.0651 20.8021 8.92188 20.8021 8.76562 20.6719L7.86719 19.7734C7.73698 19.6172 7.73698 19.474 7.86719 19.3438L12.7109 14.5L7.86719 9.65625C7.73698 9.52604 7.73698 9.38281 7.86719 9.22656L8.76562 8.32812C8.92188 8.19792 9.0651 8.19792 9.19531 8.32812L14.0391 13.1719L18.8828 8.32812C19.013 8.19792 19.1562 8.19792 19.3125 8.32812L20.2109 9.22656C20.3411 9.38281 20.3411 9.52604 20.2109 9.65625L19.3516 10.4766L15.3672 14.5Z"
+                    fill="#ffffff"></path>
+            </svg>
+        </span>
+        <div class="inner">
+            <iframe src="https://www.youtube.com/embed/vfhzo499OeA?controls=0" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
     </div>
-    <!-- bslthemes.com buttons html end -->
+    <!-- END POPUP -->
+    </div>
 
-    <!-- bslthemes.com buttons assets begin -->
-    <link rel="stylesheet" href="../../bslthms-advanced-btns/assets/style.css">
-    <script src="../../bslthms-advanced-btns/assets/script.js"></script>
-    <!-- bslthemes.com buttons assets end -->
-
+    <!-- jQuery -->
+    <script src="assets/js/jquery-1.12.4.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/libs/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/libs/counter/jquery.counterup.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

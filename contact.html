@@ -1,354 +1,300 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planedome || Cloud Application Development</title>
 
-    <!-- bootstrap grid css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
-    <!-- font awesome css -->
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
-    <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css">
-    <!-- itsulu css -->
-    <link rel="stylesheet" href="css/style.css">
-    <title>Riversdome || Cloud Assured Managed Services</title>
-    <!-- itsulu favicon -->
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon.png">
-    <link rel="manifest" href="favicon/site.webmanifest.txt">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <!-- Style CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/libs/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <div id="wrapper">
+        <div id="preload" class="preload">
+            <div class="spin"></div>
+        </div>
+        <!-- BEGIN SITE HEADER -->
+        <header id="header" class="site-header">
+            <div class="container-fluid">
+                <div class="row flex-align-c inner">
+                    <div class="col-lg-3 col-6">
+                        <div class="header-left flex flex-align-c">
+                            <div class="canvas-menu">
+                                <div class="icon">
+                                    <a href="#">
+                                        <svg width="30px" height="14px" viewBox="0 0 30 14" version="1.1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g transform="translate(-50.000000, -33.000000)" fill="#111111">
+                                                    <g id="off-menu" transform="translate(50.000000, 28.000000)">
+                                                        <g id="icon-menu" transform="translate(0.000000, 5.000000)">
+                                                            <rect id="Rectangle-1" x="0" y="0" width="30" height="3"
+                                                                rx="1.5"></rect>
+                                                            <rect id="Rectangle-2" x="0" y="11" width="20" height="3"
+                                                                rx="1.5"></rect>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="./assets/planedome.png" alt="logo" width="180px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-0 text-center">
+                        <div class="header-center">
+                            <div class="main-menu">
+                                <div class="menu-action">
+                                    <span class="item menu-back"><i class="las la-arrow-left"></i></span>
+                                    <span class="item menu-close"><i class="las la-times"></i></span>
+                                </div>
+                                <ul>
+                                    <li class="">
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="about.html">About Us</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="our-team.html">Our Team</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="contact.html">Contact Us</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="blog.html">Blog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END SITE HEADER -->
 
-    <!-- wrapper -->
-    <div class="mil-wrapper">
-        <!-- top bar -->
-        <div class="mil-top-position mil-fixed">
-            <div class="mil-top-panel">
-                <!-- mil-top-panel-transparent -->
+        <!-- BEGIN SITE MAIN -->
+        <main id="main" class="site-main">
+            <section class="page-title">
                 <div class="container">
-                    <a href="index.html" class="mil-logo" style="width: 200px"></a>
-                    <div class="mil-navigation">
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a href="about.html">About</a>
-                                </li>
-                                <li>
-                                    <a href="faq.html">FAQ</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact</a>
-                                </li>
-                                <li><a href="blog.html">Blog</a></li>
-                            </ul>
-                        </nav>
-
-                    </div>
-                    <!-- mobile menu button -->
-                    <div class="mil-menu-btn">
-                        <span></span>
-                    </div>
-                    <!-- mobile menu button end -->
-                </div>
-            </div>
-        </div>
-        <!-- top bar end -->
-
-        <!-- banner -->
-        <div class="mil-banner-sm mil-deep-bg">
-            <img src="img/deco/map.png" alt="background" class="mil-background-image">
-            <div class="mil-deco mil-deco-accent" style="top: 47%; right: 10%; transform: rotate(90deg)"></div>
-            <div class="mil-banner-content">
-                <div class="container mil-relative">
-                    <ul class="mil-breadcrumbs mil-mb-30">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                    <h2 class="mil-uppercase">Let’s discuss your opportunity</h2>
-                </div>
-            </div>
-        </div>
-        <!-- banner end -->
-
-        <!-- contact -->
-        <section class="mil-contact mil-p-120-0">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-lg-8 col-xl-8 mil-mb-120">
-                        <form>
-                            <h4 class="mil-mb-60"><span class="mil-accent">01.</span> Contact Information</h4>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="mil-input-frame mil-dark-input mil-mb-30">
-                                        <label class="mil-h6 mil-dark"><span>First Name</span></label>
-                                        <input type="text" placeholder="Your First Name">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mil-input-frame mil-dark-input mil-mb-30">
-                                        <label class="mil-h6"><span>Last Name</span></label>
-                                        <input type="text" placeholder="Your Last Name">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mil-input-frame mil-dark-input mil-mb-30">
-                                        <label class="mil-h6"><span>Email Address</span></label>
-                                        <input type="email" placeholder="yourname@company.com">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mil-input-frame mil-dark-input mil-mb-30">
-                                        <label class="mil-h6"><span>Phone</span></label>
-                                        <input type="number" placeholder="Your Phone Number">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="mil-input-frame mil-dark-input mil-mb-30">
-                                        <label class="mil-h6 mil-dark"><span>Company</span></label>
-                                        <input type="text" placeholder="Your Company Name">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mil-mb-30">
-                                    <div class="mil-input-frame mil-dark-input mil-mb-30">
-                                        <label class="mil-h6 mil-dark"><span>Role</span></label>
-                                        <input type="text" placeholder="Your Role">
-                                    </div>
-                                </div>
-                            </div>
-                            <h4 class="mil-mb-60"><span class="mil-accent">02.</span> How Can We Assist You?</h4>
-                            <div class="row">
-                                <div class="col-lg-6 mil-mb-30">
-                                    <div class="mil-input-frame mil-dark-input mil-mb-30">
-                                        <label class="mil-h6 mil-dark"><span>Service Inquiry</span></label>
-                                        <input type="text" placeholder="Service of Interest">
-                                    </div>
-                                </div>
-                            </div>
-                            <h4 class="mil-mb-60"><span class="mil-accent">03.</span> Tell Us About Your Requirements
-                            </h4>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="mil-input-frame mil-dark-input mil-mb-30">
-                                        <label class="mil-h6"><span>Project Description</span></label>
-                                        <textarea placeholder="Briefly describe your requirements"
-                                            class="mil-shortened"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="mil-attach-frame mil-dark mil-mb-30">
-                                        <i class="fas fa-paperclip"></i>
-                                        <label class="mil-custom-file-input">
-                                            <span>Attach relevant files</span>
-                                            <input type="file" id="mil-file-input">
-                                        </label>
-                                        <p class="mil-text-sm mil-light-soft">up to 20MB</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mil-mb-30">
-                                    <div class="mil-input-frame mil-dark-input mil-mb-30">
-                                        <label class="mil-h6 mil-dark"><span>Estimated Budget</span></label>
-                                        <input type="number" placeholder="Your Estimated Budget">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <button class="mil-button mil-border mil-fw"><span>Submit Inquiry</span></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-lg-4 col-xl-3 mil-mb-120">
-                        <div class="mil-mb-60">
-                            <h5 class="mil-list-title mil-mb-30">Support Request</h5>
-                            <p class="mil-mb-20">Our experts are ready to assist you with any inquiries.</p>
-                            <a href="contact.html" class="mil-link mil-link-sm"><span>Request Support</span><i
-                                    class="fas fa-arrow-right"></i></a>
-                        </div>
-                        <div class="mil-divider mil-mb-60"></div>
-                        <div class="mil-mb-60">
-                            <div class="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                                <img src="img/icons/md/8.svg" alt="icon">
-                            </div>
-                            <h5 class="mil-list-title mil-mb-30">Need Help?</h5>
-                            <p>For technical or billing questions, please reach out to our Customer Care team.</p>
-                        </div>
-                        <div class="mil-mb-60">
-                            <div class="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                                <img src="img/icons/md/9.svg" alt="icon">
-                            </div>
-                            <h5 class="mil-list-title mil-mb-30">More Information?</h5>
-                            <p>For additional details or inquiries, please contact Customer Care.</p>
-                        </div>
-                        <div class="mil-divider mil-mb-60"></div>
-                        <a href="legality.html" class="mil-link mil-link-sm mil-mb-15"><span>Legality Guide</span><i
-                                class="fas fa-arrow-right"></i></a><br>
-                        <a href="security.html" class="mil-link mil-link-sm"><span>Security Center</span><i
-                                class="fas fa-arrow-right"></i></a>
+                    <div class="inner align-center">
+                        <h1 class="title">Connect with Us</h1>
+                        <div class="desc">We're excited to discuss your cloud development needs.</div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- contact end -->
-
-        <!-- contact info -->
-        <section class="mil-p-120-60">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4">
-                        <div class="mil-mb-60">
-                            <h4 class="mil-mb-30">United States</h4>
-                            <h5 class="mil-list-title mil-mb-15">New York</h5>
-                            <p class="mil-mb-30">525, Cloud Avenue, Suite 1600, Charlotte, NC 28202-0213</p>
-                            <div class="mil-divider mil-divider-left mil-mb-30"></div>
-                            <h6 class="mil-mb-15"><span class="mil-accent">+1</span> 800 123 4567</h6>
-                            <h6><span class="mil-accent">usa</span>.support@riversdome.online</h6>
+            </section>
+            <!-- PAGE TITLE -->
+            <div class="site-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="contact-content">
+                                <div class="heading">
+                                    <h2 class="heading-title">Let’s Collaborate.</h2>
+                                    <div class="heading-desc">Have questions about our cloud solutions or unsure about
+                                        the right
+                                        plan? Contact our team, and let’s arrange a discussion.</div>
+                                </div>
+                                <div class="contact-boxs">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="contact-box">
+                                                <a href="tel:1-335-670-6542" title="Call us"
+                                                    class="background-navy">Call
+                                                    us<span>(+84) 6564 543 542</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="contact-box">
+                                                <a href="support@planedome.digital" title="Email us"
+                                                    class="background-dark">Email us<span><span
+                                                            class="__cf_email__">planedome.digital</span></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="heading">
+                                    <h2 class="heading-title"> Location Us At</h2>
+                                    <div class="heading-desc">54 Marylane Avn, Maryland, USA</div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="mil-mb-60">
-                            <h4 class="mil-mb-30">Germany</h4>
-                            <h5 class="mil-list-title mil-mb-15">Berlin</h5>
-                            <p class="mil-mb-30">501, Cloud Tower, Science City Road, Berlin, 380060</p>
-                            <div class="mil-divider mil-divider-left mil-mb-30"></div>
-                            <h6 class="mil-mb-15"><span class="mil-accent">+49</span> 700 987 6543</h6>
-                            <h6><span class="mil-accent">germany</span>.support@riversdome.online</h6>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="mil-mb-60">
-                            <h4 class="mil-mb-30">France</h4>
-                            <h5 class="mil-list-title mil-mb-15">Paris</h5>
-                            <p class="mil-mb-30">397 Cloud Boulevard, Suite 323, Paris 75001</p>
-                            <div class="mil-divider mil-divider-left mil-mb-30"></div>
-                            <h6 class="mil-mb-15"><span class="mil-accent">+33</span> 700 987 6543</h6>
-                            <h6><span class="mil-accent">france</span>.support@riversdome.online</h6>
+                        <div class="col-lg-6">
+                            <div class="contact-form layout-01">
+                                <div class="heading">
+                                    <h2 class="heading-title">Drop Us a Line.</h2>
+                                    <div class="heading-desc">Feel free to reach out for inquiries, potential
+                                        collaborations, or
+                                        media requests.</div>
+                                </div>
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="field-input">
+                                                <label for="first_name">First name*</label>
+                                                <input type="text" name="first_name" id="first_name" value=""
+                                                    placeholder="Enter your first name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="field-input">
+                                                <label for="last_name">Last name*</label>
+                                                <input type="text" name="last_name" id="last_name" value=""
+                                                    placeholder="Enter your last name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="field-input">
+                                                <label for="work_email">Work email*</label>
+                                                <input type="text" name="work_email" id="work_email" value=""
+                                                    placeholder="Enter your email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="field-input">
+                                                <label for="phone_number">Phone number</label>
+                                                <input type="text" name="phone_number" id="phone_number" value=""
+                                                    placeholder="Enter your phone number">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="field-input field-textarea">
+                                                <label for="message">Message*</label>
+                                                <textarea name="message" id="message" cols="30" rows="10"
+                                                    placeholder="Write your message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="field-submit">
+                                                <input type="submit" value="Send Message" name="submit">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+            <!-- SITE CONTENT -->
+        </main>
+        <!-- END SITE MAIN -->
 
-        <!-- contact info end -->
-
-        <!-- footer -->
-        <footer class="mil-dark-bg">
-            <img src="img/deco/map.png" alt="background" class="mil-footer-bg">
-            <div class="container">
-                <div class="mil-footer-content mil-p-120-90">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-xl-4 mil-mb-30">
-
-                            <img src="img/rivers-2.png" alt="" class="mil-logo mil-mb-30" style="width: 140px">
-
-                            <p class="mil-light-soft mil-mb-30">Empowering businesses with cutting-edge cloud solutions
-                                and
-                                managed services. Let's elevate your digital journey together.</p>
-
-                        </div>
-                        <div class="col-xl-7 mil-mt-60-adapt">
-
-                            <div class="row">
-                                <div class="col-lg-7 mil-mb-30">
-
-                                    <h3 class="mil-light mil-up-font mil-mb-30">Experience the <span
-                                            class="mil-accent">CloudAssure</span><br>Advantage</h3>
-                                    <p class="mil-light-soft">Transform your business with innovative cloud solutions
-                                        and
-                                        reliable managed services. Unleash the full potential of your digital landscape.
-                                    </p>
-
+        <!-- BEGIN SITE FOOTER -->
+        <footer id="footer" class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="inner">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="footer-item footer-about">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img src="./assets/planedome.png" alt="logo">
+                                        </a>
+                                    </div>
+                                    <p>An innovative cloud development startup, offering solutions for businesses, SaaS,
+                                        and IT
+                                        services.</p>
                                 </div>
-                                <div class="col-lg-5 mil-mb-30">
-
-                                    <form>
-
-                                        <input class="mil-rounded-input mil-text-center mil-mb-5" type="text"
-                                            placeholder="Your email address">
-                                        <button class="mil-button mil-accent-bg mil-fw"><span>Subscribe
-                                                Now</span></button>
-
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="footer-item footer-menu">
+                                    <h6>Company</h6>
+                                    <ul>
+                                        <li><a href="about.html" title="About us">About us</a></li>
+                                        <li><a href="blog.html" title="Blog">Blog</a></li>
+                                        <li><a href="our-team.html" title="Careers">Our Team</a></li>
+                                        <li><a href="contact.html" title="Contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="footer-item footer-menu">
+                                    <h6>Resources</h6>
+                                    <ul>
+                                        <li><a href="#." title="Downloads">Downloads</a></li>
+                                        <li><a href="#." title="Help Center">Help Center</a></li>
+                                        <li><a href="#." title="Partners">Partners</a></li>
+                                        <li><a href="#." title="Press Kit">Press Kit</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="footer-item footer-newsletter">
+                                    <h6>Newsletter</h6>
+                                    <p>Subscribe to our newsletter and stay up to date with the latest developments in
+                                        cloud
+                                        technology.</p>
+                                    <form action="#" class="newsletter">
+                                        <div class="field-input">
+                                            <input type="email" value="" placeholder="Email address">
+                                        </div>
+                                        <div class="field-submit">
+                                            <button>Subscribe</button>
+                                        </div>
                                     </form>
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-                <div class="mil-divider mil-light"></div>
-
-                <div class="mil-footer-links">
-                    <ul class="mil-social mil-light">
-
-                    </ul>
-                    <ul class="mil-additional-links mil-light">
-                        <li><a href="#.">Terms & Conditions</a></li>
-                        <li><a href="#.">Privacy Policy</a></li>
-                        <li><a href="#.">Sitemap</a></li>
-                    </ul>
-                </div>
             </div>
-            <div class="mil-footer-bottom">
+            <div class="footer-bottom">
                 <div class="container">
-                    <p class="mil-text-sm mil-light">© Riversdome 2023.</p>
-                    <p class="mil-text-sm mil-light">All Rights Reserved.</p>
+                    <div class="inner flex flex-content-sb flex-align-c">
+                        <div class="copyright">© 2023 Planedome. All rights reserved</div>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="privacy-policy.html" title="Terms">Terms</a></li>
+                                <li><a href="privacy-policy.html" title="Privacy Policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
-        <!-- footer end -->
+        <!-- END SITE FOOTER -->
+
+        <!-- BEGIN BACK TO TOP -->
+        <a href="#" id="backtotop" class="backtotop">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M5.52344 18.5234C5.3151 18.3151 5.3151 18.0938 5.52344 17.8594L13.7266 9.69531C13.9349 9.46094 14.1432 9.46094 14.3516 9.69531L22.5547 17.8594C22.763 18.0938 22.763 18.3151 22.5547 18.5234L21.7734 19.3047C21.5651 19.5391 21.3438 19.5391 21.1094 19.3047L14.0391 12.2344L6.96875 19.3047C6.73438 19.5391 6.51302 19.5391 6.30469 19.3047L5.52344 18.5234Z"
+                    fill="#ffffff"></path>
+            </svg>
+        </a>
+        <!-- END BACK TO TOP -->
 
     </div>
-    <!-- wrapper end -->
 
-    <!-- jQuery js -->
-    <script src="js/plugins/jquery.min.js"></script>
-    <!-- swiper js -->
-    <script src="js/plugins/swiper.min.js"></script>
-    <!-- itsulu js -->
-    <script src="js/main.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125314689-11"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-125314689-11');
-    </script>
-
-    <!-- bslthemes.com buttons html begin -->
-    <div class="bsl-popup" data-theme="itsulu" data-category="html">
-        <div class="bsl-popup__buttons"></div>
-        <div class="bsl-popup__content bsl-popup__content-related">
-            <div class="bsl-popup__menu"></div>
-            <div class="bsl-popup__tabs">
-                <div class="bsl-popup__tab bsl-popup__tab-demo"></div>
-                <div class="bsl-popup__tab bsl-popup__tab-all"></div>
-                <div class="bsl-popup__tab bsl-popup__tab-related"></div>
-                <div class="bsl-popup__tab bsl-popup__tab-version"></div>
-            </div>
-        </div>
-        <div class="bsl-popup__content bsl-popup__content-help"></div>
-    </div>
-    <!-- bslthemes.com buttons html end -->
-
-    <!-- bslthemes.com buttons assets begin -->
-    <link rel="stylesheet" href="../../bslthms-advanced-btns/assets/style.css">
-    <script src="../../bslthms-advanced-btns/assets/script.js"></script>
-    <!-- bslthemes.com buttons assets end -->
-
+    <!-- jQuery -->
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/jquery-1.12.4.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/libs/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/libs/counter/jquery.counterup.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
